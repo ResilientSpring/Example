@@ -1,18 +1,7 @@
 import java.util.Scanner;
 
-/**
- * 
- */
-
-/**
- * @author ted10014
- *
- */
 public abstract class Self_Test_chapter_1 {
 
-	/**
-	 * 
-	 */
 	public Self_Test_chapter_1() {
 		// TODO Auto-generated constructor stub
 	}
