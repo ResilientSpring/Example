@@ -20,3 +20,6 @@ class CharArithDemo {
 		System.out.println("ch is now " + ch);
 	}
 }
+
+
+// Source: https://www.ascii-code.com/    (ASCII Code table)
