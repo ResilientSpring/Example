@@ -1,4 +1,4 @@
-
+// Side effects can be important.
 public class SideEffects {
 
 	public static void main(String[] args) {
