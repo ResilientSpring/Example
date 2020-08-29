@@ -25,7 +25,7 @@ public class Example2 {
 		
 		myVar1=1024; 
 		
-		System.out.println("myVar1 contains" + myVar1);
+		System.out.println("myVar1 contains " + myVar1);
 		
 		myVar2 = myVar1 / 2 ;
 		
