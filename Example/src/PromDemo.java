@@ -1,4 +1,4 @@
-
+// A promotion surprise!
 public class PromDemo {
 
 	public static void main(String[] args) {
