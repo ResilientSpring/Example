@@ -11,6 +11,23 @@ public class ComplementTable {
 	 * 
 	 * Reference: https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/io/PrintStream.html#println(char%5B%5D)
 	 * */
+	
+	/* java line separator explained:
+	 * 
+	 * public static String lineSeparator() on Windows systems, it returns “\r\n” or a positive integer.
+	 * 
+	 * Reference: 
+	 * https://www.geeksforgeeks.org/system-lineseparator-method-in-java-with-examples/
+	 * */
+	
+	/* “\r” stands for "carriage return" on the textbook page 74. 
+	 * 
+	 * Carriage return is the key on a computer keyboard that you press in order to move down a line on the screen, 
+	 * or to mark the end of a section of text or data, or the act of pressing this key.
+	 * 
+	 * Reference: 
+	 * https://dictionary.cambridge.org/dictionary/english/carriage-return 
+	 * */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
