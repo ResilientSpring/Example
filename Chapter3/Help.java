@@ -27,7 +27,7 @@ public class Help {
 			break;
 		case '2':	
 			System.out.println("The switch:\n");
-			System.out.println("Switch(expression) {");
+			System.out.println("switch(expression) {");
 			System.out.println("  case constant:");
 			System.out.println("    statement sequence");
 			System.out.println("    break;");
