@@ -6,6 +6,9 @@ public class Break4 {
 
 		int i;
 		for (i = 0; i < 4; i++) {
+			
+			// The block being labeled can be a stand-alone block, or a statement that has a block as its target. 
+			// Here the block being labeled is a stand-alone block. See the textbook page on 121.
 			one: {
 				two: {
 					three: {
