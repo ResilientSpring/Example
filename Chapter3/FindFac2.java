@@ -1,8 +1,5 @@
-/*
- * Use nested loops to find factors of numbers between 2 and 100. 
- * */
-public class FindFac {
 
+public class FindFac2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
