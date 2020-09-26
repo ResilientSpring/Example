@@ -1,17 +1,10 @@
 import java.io.IOException;
 
-/*
- * Try This 3-3 
- * 
- * The finished Java statement Help system that processes multiple requests. 
- * 
- * */
-
-public class Help3 {
+public class Help3b {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-
+		
 		char choice, ignore;
 
 		for (;;) {
@@ -36,8 +29,6 @@ public class Help3 {
 
 			} while (choice < '1' | choice > '7' & choice != 'q');
 
-			if (choice == 'q')
-				break;
 
 			System.out.println("\n");
 
