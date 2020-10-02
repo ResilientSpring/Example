@@ -13,11 +13,13 @@ public class Help3 {
 		// TODO Auto-generated method stub
 
 		char choice, ignore;
-
+		
+		// The program loops until the letter q is pressed. 
 		for (;;) {
 
 			do {
-
+				
+				// Display a menu				
 				System.out.println("Help on:");
 				System.out.println(" 1. if");
 				System.out.println(" 2. switch");
@@ -28,19 +30,22 @@ public class Help3 {
 				System.out.println(" 7. continue\n");
 				System.out.print("Choose one (q to quit): ");
 
+				// Input the user's choice
 				choice = (char) System.in.read();
 
 				do {
 					ignore = (char) System.in.read();
 				} while (ignore != '\n');
 
-			} while (choice < '1' | choice > '7' & choice != 'q');
+			} while (choice < '1' | choice > '7' & choice != 'q'); // Check for a valid response. 
 
+			// Check for a valid response 
 			if (choice == 'q')
 				break;
 
 			System.out.println("\n");
 
+			// Display information about the item selected.
 			switch (choice) {
 			case '1':
 				System.out.println("The if:\n");
