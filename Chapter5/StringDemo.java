@@ -8,6 +8,11 @@ public class StringDemo {
 		String str2 = "They are constructed various ways. ";
 		String str3 = new String(str2);
 		String str4 = new String(str1);
+		
+		System.out.println(str1);
+		System.out.println(str2);
+		System.out.println(str3);
+		System.out.println(str4);
 
 	}
 
