@@ -44,3 +44,14 @@ public class FailSoftArray {
 	}
 
 }
+
+// Demonstrate the fail-soft array. 
+class FSDemo{
+	
+	public static void main(String arg[]) {
+		
+		
+		
+	}
+	
+}
