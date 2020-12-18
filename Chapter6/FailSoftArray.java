@@ -1,7 +1,7 @@
 //  This class implements a "fail-soft" array which prevents runtime errors. 
 public class FailSoftArray {
 	
-	private int a[] ;  // reference to array
+	private int a[];  // reference to array
 	private int errval;  // value to return if get() fails. 
 	public int length;  // length is public 
 	
@@ -23,9 +23,12 @@ public class FailSoftArray {
 	}
 	
 	// Put a value at an index. Return false on failure. 
-	public boolean put(int index, int val) {              
+	public boolean put(int index, int val) {      
+		
 		if(indexOK(index)) {  // Trap on out-of-bounds index.
+			
 			a[index] = val;
+			
 			return true;
 		}
 		
@@ -34,6 +37,7 @@ public class FailSoftArray {
 	
 	// Return true if index is within bounds. 
 	private boolean indexOK(int index) {
+		
 		if(index >= 0 & index < length) return true;
 		
 		return false;
