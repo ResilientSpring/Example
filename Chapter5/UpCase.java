@@ -14,9 +14,9 @@ public class UpCase {
 			// This statement turns off the 6th bit. 
 			ch = (char) ( ch & 65503 );  // ch is now uppercase. 
 			
-			/** Binary	    Oct	 Dec   Hex   Glyph
-			 *  100 0001	101	 65	   41	   A
-			 *  110 0001    141  97    61      a
+			/** Binary	      Oct	   Dec     Hex     Glyph
+			 *  100 0001	  101	    65	    41	    A
+			 *  110 0001      141       97      61      a
 			 * 
 			 * https://en.wikipedia.org/wiki/ASCII#Printable_characters
 			 * 
