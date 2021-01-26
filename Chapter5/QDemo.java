@@ -21,7 +21,7 @@ class Queue {
 			return;
 		}
 
-		q[putloc++] = ch;
+		q[putloc++] = ch;  // the new element is stored at that location and putloc is increment.
 
 	}
 
