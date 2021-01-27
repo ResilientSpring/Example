@@ -15,7 +15,7 @@ public class Factorial_by_recursion {
 		
 		System.out.println("Your input is " + input);
 		
-		System.out.println("The factorial of " + input + " is " + factR(input) + " , using recursive function.");
+		System.out.println("The factorial of " + input + " is " + factR(input) + ", using recursive function.");
 
 	}
 	
