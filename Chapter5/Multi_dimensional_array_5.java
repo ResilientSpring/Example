@@ -17,6 +17,9 @@ public class Multi_dimensional_array_5 {
 		
 		// value of i is kept in the memory even when the for loop has been terminated. 
 		System.out.println("The square of " + input + " is " + square[i][1]);
+		
+		// Note that the garbage collection in Java only applies to object. 
+		// Reference: https://www.geeksforgeeks.org/garbage-collection-java/
 
 	}
 
