@@ -18,7 +18,8 @@ class Factorial3 {   // The factorial of five (5 x 4 x 3 x 2 x 1) is 120. Four f
 		int t, result;
 		
 		result = 1; 
-		for(t = 1 ; t <= n ; t++) result *= t ;
+		for(t = 1 ; t <= n ; t++) 
+			result *= t ;
 		return result;
 	}
 }
