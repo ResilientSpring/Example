@@ -27,20 +27,21 @@ public class Outer {
 					m = nums[i];
 			return m;
 		}
-		
+
 		int max() {
 			int m = nums[0];
-			for(int i = 1 ; i < nums.length ; i++)
-				if(nums[i] > m) m = nums[i];
-			
+			for (int i = 1; i < nums.length; i++)
+				if (nums[i] > m)
+					m = nums[i];
+
 			return m;
 		}
-		
+
 		int avg() {
 			int a = 0;
-			for(int i = 0; i < nums.length ; i++)
+			for (int i = 0; i < nums.length; i++)
 				a += nums[i];
-			
+
 			return a / nums.length;
 		}
 	}
