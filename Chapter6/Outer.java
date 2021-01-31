@@ -19,6 +19,7 @@ public class Outer {
 
 	// This is an inner class.
 	class Inner {
+		
 		int min() {
 			int m = nums[0];
 
