@@ -1,5 +1,5 @@
 
-// Varargs and overloading. 
+// VarArgs and overloading. 
 public class VarArgs3 {
 	
 	static void vaTest (int ... v) {

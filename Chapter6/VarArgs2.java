@@ -17,7 +17,7 @@ public class VarArgs2 {
 		
 		vaTest("One vararg: ", 10);
 		vaTest("Three varargs: ", 1, 2, 3);
-		vaTest("No varargs:");
+		vaTest("No varargs: ");
 
 	}
 
