@@ -12,7 +12,7 @@ public class Shape8 {
 		
 		System.out.println();
 		
-		Triangle8 t2 = new Triangle8("Good", 5.3, 2.0);
+		Triangle8 t2 = new Triangle8("Good", 5.3, 8.0);
 		System.out.println("Info for t2: ");
 		t2.showStyle();
 		t2.showDim();
