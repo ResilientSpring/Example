@@ -10,6 +10,16 @@ public class Triangle6 extends TwoDShape6 {
 		styleString = "none";
 	}
 	
+	/*
+	 * If a constructor does not explicitly invoke a superclass constructor, 
+	 * the Java compiler automatically inserts a call to the no-argument constructor of the superclass. 
+	 * If the super class does not have a no-argument constructor, you will get a compile-time error.
+	
+	References: 
+	https://web.archive.org/web/20210118184134/https://docs.oracle.com/javase/tutorial/java/IandI/super.html
+	
+	*/
+	
 	// Constructor
 	Triangle6(String s, double w, double h){
 	//	super(w, h);                          Use super() to call the various forms of the TwoDShape constructor.
