@@ -6,7 +6,7 @@ import java.io.IOException;
  * Have the program count the number of spaces. Report the total at the end of the program. 
  * 
  * */
-public class Self_Test_No1 {
+public class Self_Test_Chapter3_No1 {
 
 	public static void main(String[] args) throws IOException {
 		
