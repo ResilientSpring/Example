@@ -25,12 +25,12 @@ class Stack {
 
 	public Stack(Stack objectStack) {
 
-		push_at = objectStack.push_at;
-		this.pop_at = objectStack.pop_at;
+		push_at = 0;
+		this.pop_at = objectStack.stack.length -1;
 		stack = new char[objectStack.stack.length];
 		
 		// Copy elements
-		for (int i = pop_at; i < push_at; i++) {
+		for (int i = 0; i < objectStack.stack.length; i++) {
 			stack[i] = objectStack.stack[i];
 		}
 	}
