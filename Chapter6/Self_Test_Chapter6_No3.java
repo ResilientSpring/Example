@@ -20,7 +20,7 @@ class Stack {
 		stack = new char[char_array.length];
 		
 		// Copy elements
-		for (int i = 0; i < char_array.length; i++) push(stack[i]);
+		for (int i = 0; i < char_array.length; i++) push(char_array[i]);
 	}
 
 	public Stack(Stack objectStack) {
