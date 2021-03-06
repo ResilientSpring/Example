@@ -20,7 +20,15 @@ public class Self_Test_Chapter6_No13 {
 				System.out.println("Now, insert the first integer: ");
 				Scanner myScanner = new Scanner(System.in);
 				collection[0] = myScanner.nextInt();
-//				myScanner.close();
+//				myScanner.close();    
+/* 
+ * What does scanner.close() do? 
+ *
+ * "Yes, it does mean that System.in will be closed. 
+ * Once closed, you won't be able to use System.in for the rest of your program. 
+ * In most cases you won't want to close System.in, so you won't want to call .close() in that case."
+ * 
+ * Reference: https://stackoverflow.com/questions/26245468/what-does-scanner-close-do */
 				break;
 			}
 			
