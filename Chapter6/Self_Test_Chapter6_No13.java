@@ -11,7 +11,7 @@ public class Self_Test_Chapter6_No13 {
 		
 		int[] collection = new int[10];
 		
-		System.out.print("Please enter 10 integers for the program to count their average value.");
+		System.out.print("Please enter 10 integers for the program to find the sum of them.\n");
 		
 		for (int i = 0; i < collection.length; i++) {
 			
@@ -20,18 +20,20 @@ public class Self_Test_Chapter6_No13 {
 				System.out.println("Now, insert the first integer: ");
 				Scanner myScanner = new Scanner(System.in);
 				collection[0] = myScanner.nextInt();
-				myScanner.close();
+//				myScanner.close();    
+/* 
+ * What does scanner.close() do? 
+ *
+ * "Yes, it does mean that System.in will be closed. 
+ * Once closed, you won't be able to use System.in for the rest of your program. 
+ * In most cases you won't want to close System.in, so you won't want to call .close() in that case."
+ * 
+ * Reference: https://stackoverflow.com/questions/26245468/what-does-scanner-close-do */
 				break;
 			}
-			case 1: {
-				System.out.println("Now, insert the No." + i + 1 + " value.");
-				Scanner myScanner = new Scanner(System.in);
-				collection[i] = myScanner.nextInt();
-				myScanner.close();
-				break;
-			}
+			
 			default:
-				System.out.println("Now, insert the No." + i + 1 + " value.");
+				System.out.println("Now, insert the No." + (i + 1) + " value.");
 				Scanner myScanner = new Scanner(System.in);
 				collection[i] = myScanner.nextInt();
 			}
@@ -43,7 +45,20 @@ public class Self_Test_Chapter6_No13 {
 
 	static void sums(int ... v) {
 		
+		int summation = 0;
 		
+		int[] orthodoxy = new int[v.length];
+		
+		for (int i = 0; i < orthodoxy.length; i++) {
+			
+			orthodoxy[i] = v[i];
+		}
+		
+		for (int i = 0; i < orthodoxy.length; i++) {
+			summation += orthodoxy[i]; 
+		}
+		
+		System.out.println("The sum of the 10 integers you entered is " + summation);
 		
 	}
 
