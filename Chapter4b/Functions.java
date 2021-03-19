@@ -1,4 +1,4 @@
-
+// Implement it in Java for Python > Python machine learning for beginners > Chapter2 > Functions.py 
 public class Functions {
 
 	public static void main(String[] args) {
