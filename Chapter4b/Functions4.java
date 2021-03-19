@@ -10,7 +10,7 @@ public class Functions4 {
 	
 	static String myreturnfunc() {
 		
-		return "This function returns a value.";
+		return "This function returns a value."; // Note that to return a value does not mean to print a value onto the screen.
 	}
 
 }
