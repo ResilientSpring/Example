@@ -35,6 +35,10 @@ public class Triangle11 extends TwoDShape11 {
 	double area() {
 		return getWidth() * getHeight() / 2;
 	}
+	
+	void showStyle() {
+		System.out.println("Triangle is " + style);
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
