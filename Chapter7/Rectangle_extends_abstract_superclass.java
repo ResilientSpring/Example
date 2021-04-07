@@ -23,10 +23,11 @@ public class Rectangle_extends_abstract_superclass extends TwoDShape_abstract {
 	}
 	
 	boolean isSquare() {
+		
 		if ( getWidth() == getHeight() )
 			return true;
-		else 
-			return false;
+		
+		return false;
 	}
 	
 	double area() {
