@@ -33,6 +33,11 @@ public class FinalD {
 		
 		System.out.println(errorMsg_final.getErrorMsg(errorMsg_final.OUTERR));
 		System.out.println(errorMsg_final.getErrorMsg(errorMsg_final.DISKERR));
+		System.out.println(errorMsg_final.getErrorMsg(errorMsg_final.INERR));
+		
+		System.out.println(errorMsg_final.getErrorMsg(2));
+		System.out.println(errorMsg_final.getErrorMsg(0));
+		System.out.println(errorMsg_final.getErrorMsg(4));
 
 	}
 
