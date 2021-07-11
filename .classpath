@@ -16,5 +16,6 @@
 	<classpathentry kind="src" path="Chapter12"/>
 	<classpathentry kind="src" path="Chapter14"/>
 	<classpathentry kind="src" path="Miscellaneous"/>
+	<classpathentry kind="src" path="Questions_to_ask"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
