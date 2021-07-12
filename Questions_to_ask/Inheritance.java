@@ -3,11 +3,11 @@ class Super2 {
 	int i;
 
 	void performative() {
-		System.out.println("Super's perfomative method.");
+		System.out.println("Super2's perfomative method.");
 	}
 }
 
-class Sub_class extends Super {
+class Sub_class extends Super2 {
 	
 	int a = i * 10;
 	i = 11;
