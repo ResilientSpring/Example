@@ -1,10 +1,9 @@
-
-class concede {
+class conceding {
 	int a;
 	int b;
 	int c;
 	
-	public concede(int d, int e, int f) {
+	public conceding(int d, int e, int f) {
 		a = d;
 		b = e;
 		c = f;
@@ -15,13 +14,13 @@ class concede {
 	}
 }
 
-class secret_sauce extends concede{
+class secret_formula extends concede{
 	
 	int g = 10;
 	int h;
 	int i;
 	
-	public secret_sauce() {
+	public secret_formula() {
 		super(g, h, i);
 		
 		
@@ -34,12 +33,6 @@ class secret_sauce extends concede{
 	}
 }
 
-
-public class Self_Test_7_4 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+public class super_constructor {
 
 }
