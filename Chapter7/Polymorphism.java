@@ -46,7 +46,8 @@ class Subversion extends Cohesion {
 
 	void polymorphy() {
 		System.out.println("When an overridden method is called through a superclass reference variable, "
-				+ "Java determines which version of that method to execute based upon the type of the object being reffered to at the time the call occurs.");
+				+ "Java determines which version of that method to execute based upon the type of the object "
+				+ "being referred to at the time the call occurs.");
 	}
 
 }
