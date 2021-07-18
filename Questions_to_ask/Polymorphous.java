@@ -1,4 +1,6 @@
-
+// How could superclass2 holding subclass' object reference have access to method defined by the subclass?
+// Isn't it that "When a reference to a subclass object is assigned to a superclass reference variable, 
+// you will have access only to those parts of the object defined by the superclass?"
 class Superclass {
 	
 	public Superclass() {
@@ -11,7 +13,7 @@ class Superclass {
 				+ "any subclass derived from that superclass. \n");
 		
 		System.out.println("When a reference to a subclass object is assigned to a superclass reference variable, "
-				+ "you will have access only to those parts of the object defined by the superclass.\n");
+				+ "you will have access only to those parts of the object defined by the superclass.");
 		
 		System.out.print("It makes sense because superclass has no knowledge of what a subclass adds to it.\n");
 	}
