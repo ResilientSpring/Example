@@ -34,6 +34,19 @@ public class Polymorphous {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Superclass superclass = new Superclass();
+		Subclass subclass = new Subclass();
+		
+		Superclass superclass2 = new Superclass();
+		
+		superclass2 = superclass;
+		superclass2.polymorphism();
+		
+		System.out.println('\n' + "A superclass reference variable can refer to a subclass object." + '\n');
+		
+		superclass2 = subclass;
+		superclass2.polymorphism();
 
 	}
 
