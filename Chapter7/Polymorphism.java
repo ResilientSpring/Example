@@ -56,6 +56,17 @@ public class Polymorphism {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Cohesion superCohesion = new Cohesion(2, 4, 6);
+		Subversion subversion = new Subversion(8, 10, 12);
+		
+		Cohesion superReferenceVariableCohesion;
+		
+		superReferenceVariableCohesion = superCohesion;
+		superReferenceVariableCohesion.polymorphy();
+		
+		superReferenceVariableCohesion = subversion;
+		superReferenceVariableCohesion.polymorphy();
 
 	}
 
