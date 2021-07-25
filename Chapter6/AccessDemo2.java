@@ -6,6 +6,8 @@ class MyClass2{
 	
 	static int delta = 1;
 	
+//	alpha = delta;
+	
 	public static void setAlpha(int alpha) {
 		MyClass2.alpha = alpha;
 	}
