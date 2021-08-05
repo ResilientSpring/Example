@@ -26,5 +26,13 @@ class ErrorMsg_final {
 }
 
 public class Final_ {
+	
+	public static void main(String[] args) {
+		ErrorMsg_final errorMsg_final = new ErrorMsg_final();
+		
+		System.out.println(errorMsg_final.getErrorMsg(errorMsg_final.outERR));
+		System.out.println(errorMsg_final.getErrorMsg(errorMsg_final.diskERR));
+		System.out.println(errorMsg_final.getErrorMsg(errorMsg_final.inERR));
+	}
 
 }
