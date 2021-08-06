@@ -16,5 +16,14 @@ public enum Named_constants_ {
 }
 
 class exploitation {
-	Named_constants_ falloutConstants_ = Named_constants_.Eight;
+	
+	
+	public static void main(String[] args) {
+		
+		Named_constants_ falloutConstants_ = Named_constants_.Eight;
+		
+		Named_constants_ rock_solidConstants_ = falloutConstants_;
+		
+		System.out.println(rock_solidConstants_);
+	}
 }
