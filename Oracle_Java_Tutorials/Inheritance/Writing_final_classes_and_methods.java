@@ -15,21 +15,27 @@ class ChessAlgorithm {
 		Black
 	}
 	
-	ChessPlayer getFirstPlayer() {
+	// For example, you might want to make the getFirstPlayer method in this ChessAlgorithm class final.
+	final ChessPlayer getFirstPlayer() {
 		return ChessPlayer.White;
+	}
+}
+
+class Chess extends ChessAlgorithm {
+	
+	ChessPlayer getFirstPlayer() {
+		
+
 	}
 }
 
 public class Writing_final_classes_and_methods {
 
-
-	public Writing_final_classes_and_methods() {
-		
-	}
-
-
 	public static void main(String[] args) {
 		
+		ChessAlgorithm chessAlgorithm = new ChessAlgorithm();
+		
+		chessAlgorithm.getFirstPlayer();
 
 	}
 
