@@ -17,7 +17,7 @@ public class EnumDemo {
 
 		// Compare two enum values.
 		if (tpTransport == Transport.TRAIN) 
-			System.out.println("tp contains TRAIN.\n");
+			System.out.println("tpTransport contains TRAIN.\n");
 
 		switch (tpTransport) {
 
