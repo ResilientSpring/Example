@@ -1,7 +1,5 @@
-package Final;
 
-public class switching {
-
+public class EnuumDemo2 {
 	public static void main(String[] args) {
 
 		int i;
@@ -38,5 +36,4 @@ public class switching {
 		}
 
 	}
-
 }

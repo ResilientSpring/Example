@@ -7,10 +7,17 @@ public class EnumDemo {
 		Transport tpTransport;
 
 		tpTransport = Transport.AIRPLANE;
+		
+		// Output an enumeration value.
+		System.out.println("Value of tpTransport: " + tpTransport);
+		
+		System.out.println();
+		
+		tpTransport = Transport.TRAIN;
 
 		// Compare two enum values.
 		if (tpTransport == Transport.TRAIN) 
-			System.out.println("tp contains TRAIN.\n");
+			System.out.println("tpTransport contains TRAIN.\n");
 
 		switch (tpTransport) {
 
