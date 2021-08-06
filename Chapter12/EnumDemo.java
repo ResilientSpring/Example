@@ -5,6 +5,8 @@ public class EnumDemo {
 		// TODO Auto-generated method stub
 		
 		Transport tpTransport;
+		
+		tpTransport = Transport.AIRPLANE;
 
 	}
 
