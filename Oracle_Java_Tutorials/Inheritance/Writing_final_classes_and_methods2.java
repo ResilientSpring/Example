@@ -1,7 +1,5 @@
 package Inheritance;
 
-import Inheritance.ChessAlgorithm.ChessPlayer;
-
 class ChessAlgorithm2 {
 	
 	// An enumeration is a list of named constants that define a new data type. 
@@ -20,7 +18,7 @@ public class Writing_final_classes_and_methods2 {
 
 	public static void main(String[] args) {
 		
-		ChessAlgorithm chessAlgorithm = new ChessAlgorithm();
+		ChessAlgorithm2 chessAlgorithm = new ChessAlgorithm2();
 
 	}
 
