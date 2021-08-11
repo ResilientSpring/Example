@@ -1,5 +1,5 @@
 
-public class EnuumDemo2 {
+public class EnumDemo_ {
 	public static void main(String[] args) {
 
 		int i;
