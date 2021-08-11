@@ -1,4 +1,4 @@
-// values() is a pre-defined static method.
+// values() is a pre-defined static method of enumeration.
 public class values_method {
 
 	public static void main(String[] args) {
