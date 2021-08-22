@@ -1,6 +1,6 @@
 // Use an enumeration constructor, instance variable, and method.
-enum Transport{
-	CAR, TRUCK, AIRPLANE, TRAIN, BOAT;
+enum Transportation{
+	CAR(65), TRUCK(55), AIRPLANE(600), TRAIN(70), BOAT(22); // Notice the initialization values.
 }
 
 
