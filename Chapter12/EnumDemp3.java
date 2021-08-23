@@ -1,8 +1,9 @@
-
-public class EnumDemo3 {
+// All enumerations automatically have two pre-defined methods: values() and valueOf()
+// values() returns an array that contains a list of the enumeration constants.
+public class EnumDemp3 {
 
 	public static void main(String[] args) {
-//		Transport tp;
+		Transport tpTransport;
 		
 		System.out.println("Here are all Transport constants: ");
 		
