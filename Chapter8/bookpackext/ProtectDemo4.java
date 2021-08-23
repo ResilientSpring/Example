@@ -1,7 +1,6 @@
 package bookpackext;
 
-public class ProtectDemo3 {
-	
+public class ProtectDemo4 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -24,10 +23,10 @@ public class ProtectDemo3 {
 				System.out.println(books[i].getTitle());
 			}
 			
-			// Access to protected field not allowed by non-subclass. 
+			// Access to protected field not allowed by non-subclass, including subclass' instance because 
+			// the instance of subclass is itself not a class but a "realization" of a class.
 			books[0].titleString = "test title";
 		}
 
 	}
-
 }
