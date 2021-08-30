@@ -1,7 +1,7 @@
 
 // Return a String object. 
 class ErrorMsg_final_ {
-	// Declare final constants 
+	
 	// Error codes. 
 	int OUTERR = 0;
 	int INERR = 1;
@@ -29,7 +29,7 @@ public class FinalD_ {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ErrorMsg_final errorMsg_final = new ErrorMsg_final();
+		ErrorMsg_final_ errorMsg_final = new ErrorMsg_final_();
 		
 		System.out.println(errorMsg_final.getErrorMsg(errorMsg_final.OUTERR));
 		System.out.println(errorMsg_final.getErrorMsg(errorMsg_final.DISKERR));
