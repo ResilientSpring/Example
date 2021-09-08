@@ -35,5 +35,11 @@ public class Bicycle {
 		// TODO Auto-generated method stub
 
 	}
+	
+	public void printDescription(){
+	    System.out.println("\nBike is " + "in gear " + gear
+	        + " with a cadence of " + cadence +
+	        " and travelling at a speed of " + speed + ". ");
+	}
 
 }
