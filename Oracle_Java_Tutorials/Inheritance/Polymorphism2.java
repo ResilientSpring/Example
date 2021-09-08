@@ -5,19 +5,21 @@ class MountainBike2 extends Bicycle {
 
 	public MountainBike2(int startCadence, int startSpeed, int startGear, String suspensionType) {
 		super(startCadence, startSpeed, startGear);
+		
 		suspension = suspensionType;
 	}
 
 	public String getSuspension() {
-		return this.suspension;
+		return suspension;
 	}
 
 	public void setSuspension(String suspensionType) {
-		this.suspension = suspensionType;
+		suspension = suspensionType;
 	}
 
 	public void printDescription() {
 		super.printDescription();
+		
 		System.out.println("The " + "MountainBike has a " + getSuspension() + " suspension.");
 	}
 }
