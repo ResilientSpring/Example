@@ -1,9 +1,9 @@
 package Inheritance;
 
-class MountainBike3 extends Bicycle {
+class MountainBike2 extends Bicycle {
 	private String suspension;
 
-	public MountainBike3(int startCadence, int startSpeed, int startGear, String suspensionType) {
+	public MountainBike2(int startCadence, int startSpeed, int startGear, String suspensionType) {
 		super(startCadence, startSpeed, startGear);
 		this.setSuspension(suspensionType);
 	}
@@ -18,15 +18,15 @@ class MountainBike3 extends Bicycle {
 
 	public void printDescription() {
 		super.printDescription();
-		System.out.println("The " + "MountainBike has a " + getSuspension() + " suspension.");
+		System.out.println("The " + "MountainBike has a" + getSuspension() + " suspension.");
 	}
 }
 
-class RoadBike3 extends Bicycle {
+class RoadBike2 extends Bicycle {
 	// In millimeters (mm)
 	private int tireWidth;
 
-	public RoadBike3(int startCadence, int startSpeed, int startGear, int newTireWidth) {
+	public RoadBike2(int startCadence, int startSpeed, int startGear, int newTireWidth) {
 		super(startCadence, startSpeed, startGear);
 		this.setTireWidth(newTireWidth);
 	}
@@ -45,14 +45,14 @@ class RoadBike3 extends Bicycle {
 	}
 }
 
-public class Polymorphism {
+public class All {
 
 	public static void main(String[] args) {
 	    Bicycle bike01, bike02, bike03;
 
 	    bike01 = new Bicycle(20, 10, 1);
-	    bike02 = new MountainBike3(20, 10, 5, "Dual");
-	    bike03 = new RoadBike3(40, 20, 8, 23);
+	    bike02 = new MountainBike2(20, 10, 5, "Dual");
+	    bike03 = new RoadBike2(40, 20, 8, 23);
 
 	    bike01.printDescription();
 	    bike02.printDescription();
