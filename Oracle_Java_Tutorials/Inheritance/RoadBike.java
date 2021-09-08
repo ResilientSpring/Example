@@ -11,7 +11,7 @@ public class RoadBike extends Bicycle {
 
 	public RoadBike(int startCadence, int startSpeed, int startGear, int newTireWidth) {
 		super(startCadence, startSpeed, startGear);
-		
+
 		tireWidth = newTireWidth;
 
 	}
@@ -24,8 +24,8 @@ public class RoadBike extends Bicycle {
 		this.tireWidth = newTireWidth;
 	}
 
-	// Note that once again, the printDescription method has been overridden. 
-	// This time, information about the tire width is displayed.	
+	// Note that once again, the printDescription method has been overridden.
+	// This time, information about the tire width is displayed.
 	public void printDescription() {
 		super.printDescription();
 		System.out.println("The RoadBike" + " has " + getTireWidth() + " MM tires.");
