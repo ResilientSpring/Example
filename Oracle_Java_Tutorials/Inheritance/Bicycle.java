@@ -37,9 +37,8 @@ public class Bicycle {
 	}
 	
 	public void printDescription(){
-	    System.out.println("\nBike is " + "in gear " + gear
-	        + " with a cadence of " + cadence +
-	        " and travelling at a speed of " + speed + ". ");
+		
+	    System.out.println("\nBike is " + "in gear " + gear + " with a cadence of " + cadence + " and travelling at a speed of " + speed + ". ");
 	}
 
 }

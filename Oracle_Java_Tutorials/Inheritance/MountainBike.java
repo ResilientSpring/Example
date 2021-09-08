@@ -40,8 +40,8 @@ public class MountainBike extends Bicycle {
     // additional data about the suspension is included to the output.
     public void printDescription() {
         super.printDescription();
-        System.out.println("The " + "MountainBike has a" +
-            getSuspension() + " suspension.");
+        
+        System.out.println("The " + "MountainBike has a " + getSuspension() + " suspension.");
     }
 
 	public static void main(String[] args) {
