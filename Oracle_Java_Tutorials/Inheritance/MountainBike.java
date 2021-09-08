@@ -9,10 +9,17 @@ public class MountainBike extends Bicycle {
     //  Or, the bike has a front and back shock absorber, "Dual".
     private String suspension;
 
-	public MountainBike(int startCadence, int startSpeed, int startGear, int startHeight) {
+	public MountainBike(int startCadence, int startSpeed, int startGear, int startHeight, String suspensionType) {
 		super(startCadence, startSpeed, startGear);
 		// TODO Auto-generated constructor stub
 		seatHeight = startHeight;
+		suspension = suspensionType;
+	}
+	
+	public MountainBike(int startCadence, int startSpeed, int startGear, String suspensionType) {
+		super(startCadence, startSpeed, startGear);
+		// TODO Auto-generated constructor stub
+		suspension = suspensionType;
 	}
 	
     // the MountainBike subclass adds one method
