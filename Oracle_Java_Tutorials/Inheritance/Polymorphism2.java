@@ -5,7 +5,7 @@ class MountainBike2 extends Bicycle {
 
 	public MountainBike2(int startCadence, int startSpeed, int startGear, String suspensionType) {
 		super(startCadence, startSpeed, startGear);
-		this.setSuspension(suspensionType);
+		suspension = suspensionType;
 	}
 
 	public String getSuspension() {
@@ -18,7 +18,7 @@ class MountainBike2 extends Bicycle {
 
 	public void printDescription() {
 		super.printDescription();
-		System.out.println("The " + "MountainBike has a" + getSuspension() + " suspension.");
+		System.out.println("The " + "MountainBike has a " + getSuspension() + " suspension.");
 	}
 }
 
@@ -28,7 +28,8 @@ class RoadBike2 extends Bicycle {
 
 	public RoadBike2(int startCadence, int startSpeed, int startGear, int newTireWidth) {
 		super(startCadence, startSpeed, startGear);
-		this.setTireWidth(newTireWidth);
+		
+		tireWidth = newTireWidth;
 	}
 
 	public int getTireWidth() {
@@ -41,11 +42,12 @@ class RoadBike2 extends Bicycle {
 
 	public void printDescription() {
 		super.printDescription();
+		
 		System.out.println("The RoadBike" + " has " + getTireWidth() + " MM tires.");
 	}
 }
 
-public class All {
+public class Polymorphism2 {
 
 	public static void main(String[] args) {
 	    Bicycle bike01, bike02, bike03;
