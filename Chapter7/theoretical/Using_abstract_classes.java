@@ -7,7 +7,24 @@ class TwoDShape{
 	
 	public TwoDShape() {
 		width = height = 0.0;
-		name = "None";
+		name = "none";
+	}
+	
+	TwoDShape(double w, double h, String n){
+		width = w;
+		height = h;
+		name = n;
+	}
+	
+	TwoDShape(double x, String n){
+		width = height = x;
+		name = n;
+	}
+	
+	TwoDShape(TwoDShape ob){
+		width = ob.width;
+		height = ob.height;
+		name = ob.name;
 	}
 }
 
