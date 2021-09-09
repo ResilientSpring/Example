@@ -1,11 +1,14 @@
 package theoretical;
 
-class Using_abstract_classes{
+class TwoDShape{
 	private double width;
 	private double height;
 	private String name;
 	
-	
+	public TwoDShape() {
+		width = height = 0.0;
+		name = "None";
+	}
 }
 
 public class Using_abstract_classes {
