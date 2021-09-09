@@ -4,6 +4,9 @@ class Point{
 	double x;
 	double y;
 	
+	public Point() {
+		// TODO Auto-generated constructor stub
+	}
 	
 }
 
@@ -11,6 +14,11 @@ public class Polygon {
 	
 	public Polygon() {
 		// TODO Auto-generated constructor stub
+	}
+	
+	//  the constructor creates a new Polygon object and initializes it from an array of Point objects
+	Polygon(Point corners[]){
+		
 	}
 
 	public static void main(String[] args) {
