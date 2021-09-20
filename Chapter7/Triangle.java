@@ -1,3 +1,5 @@
+import Unresolved.TwoDShape;
+
 // A subclass of TwoDShape for triangles. 
 
 public class Triangle extends TwoDShape {  // Triangle inherits TwoDShape
