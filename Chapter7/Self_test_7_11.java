@@ -25,6 +25,8 @@ public class Self_test_7_11 {
 		B_ aversionB_ = new B_();
 		
 		var myRef = aversionB_.make_ob(1);
+		
+		var check = myRef.make_ob(1);
 
 	}
 
