@@ -1,3 +1,5 @@
+import Unresolved.TwoDShape;
+
 // Even though TwoDShape is a superclass, it is also a completely independent, stand-alone class.
 public class TwoDShape_ extends TwoDShape {
 

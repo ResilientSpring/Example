@@ -27,3 +27,5 @@ public class Polygon {
 	}
 
 }
+
+// Reference: https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html
