@@ -1,3 +1,5 @@
+import Unresolved.TwoDShape;
+
 // A subclass of TwoDShape for rectangles. 
 public class Rectangle extends TwoDShape {
 	
