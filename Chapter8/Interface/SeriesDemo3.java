@@ -1,12 +1,12 @@
 package Interface;
 
-interface ad_hoc {
+interface ad_hoc_Series {
 	int getNext();
 	void reset();
 	void setStart(int x);
 }
 
-class sniff implements ad_hoc {
+class Sniff_ByTwos implements ad_hoc_Series {
 	
 	int start = 0;
 	int value = 0;
@@ -32,10 +32,33 @@ class sniff implements ad_hoc {
 }
 
 
-public class SeriesDemo3 implements  {
+public class SeriesDemo3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Sniff_ByTwos sniff_ByTwos = new Sniff_ByTwos();
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Next value is " + sniff_ByTwos.getNext());
+		}
+		
+		System.out.println("\nResetting ");
+		
+		sniff_ByTwos.reset();
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Next value is " + sniff_ByTwos.getNext());
+		}
+		
+		System.out.println("\nStarting at 100");
+		
+		sniff_ByTwos.setStart(100);
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Next value is " + sniff_ByTwos.getNext());
+		}
+		
 
 	}
 
