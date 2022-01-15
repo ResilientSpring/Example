@@ -22,7 +22,7 @@ public class UseThreads {
 						
 						System.out.println("In " + thread_nameString + ", count is " + count);
 					}
-				} catch (Exception e) {
+				} catch (InterruptedException e) {
 					// TODO: handle exception
 					System.out.println(thread_nameString + " interrupted.");
 				}
@@ -33,14 +33,18 @@ public class UseThreads {
 		
 		myThread.start();
 		
-		new Thread(new Runnable() {
+		for (int i = 0; i < 50; i++) {
+			System.out.println(".");
 			
-			@Override
-			public void run() {
-				// TODO Auto-generated method stub
-				
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				// TODO: handle exception
+				System.out.println("Main thread interrupted");
 			}
-		}, "myThread2").start();;
+		}
+		
+		System.out.println("Main thread ending.");
 		
 
 	}
