@@ -17,9 +17,19 @@ class MyThreaded implements Runnable {
 		thread_nameString = name;
 	}
 
-	@Override
-	public void run() {
-		// TODO Auto-generated method stub
+	// Entry point of thread.
+	public void run() {       // Thread starts executing here.
+		System.out.println(thread_nameString + " starting.");
+		
+		try {
+			for (int count = 0; count < 10; count++) {
+				Thread.sleep(400);
+				
+				System.out.println("In " + thread_nameString + ", count is " + count);
+			}
+		} catch (InterruptedException e) {
+			// TODO: handle exception
+		}
 		
 	}
 	
