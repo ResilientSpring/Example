@@ -3,16 +3,39 @@ public class Multi_threaded_programming {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
+		System.out.println("Main thread starting.");
+		
+		// First, construct a MyThread object.
+		MyThread myThread = new MyThread("Child #1");  // Create a runnable object.
+		
+		// Next, construct a thread from that object.
+		Thread thread = new Thread(myThread);
+		
+		thread.start();
+		
+		
+		for (int i = 0; i < 50; i++) {
+			System.out.println(".");
+			
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				// TODO: handle exception
+				System.out.println("Main thread interrupted.");
+			}
+		}
+		
+		System.out.println("Main thread ending.");
 	}
 
 }
 
-class MyThreaded implements Runnable {
+class MyThread implements Runnable {
 	
 	String thread_nameString;
 	
-	public MyThreaded(String name) {
+	public MyThread(String name) {
 		// TODO Auto-generated constructor stub
 		thread_nameString = name;
 	}
@@ -29,7 +52,10 @@ class MyThreaded implements Runnable {
 			}
 		} catch (InterruptedException e) {
 			// TODO: handle exception
+			System.out.println(thread_nameString + " interrupted.");
 		}
+		
+		System.out.println(thread_nameString + " terminating.");
 		
 	}
 	
