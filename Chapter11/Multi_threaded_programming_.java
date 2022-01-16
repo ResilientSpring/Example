@@ -1,9 +1,8 @@
-// Create a thread by implementing Runnable.
-public class Multi_threaded_programming {
+
+public class Multi_threaded_programming_ {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		System.out.println("Main thread starting.");
 		
 		// First, construct a MyThread object.
@@ -16,7 +15,7 @@ public class Multi_threaded_programming {
 		
 		
 		for (int i = 0; i < 50; i++) {
-			System.out.println(".");
+			System.out.print(".");
 			
 			try {
 				Thread.sleep(100);
@@ -31,11 +30,11 @@ public class Multi_threaded_programming {
 
 }
 
-class MyThread implements Runnable {
+class MyThread2 implements Runnable {
 	
 	String thread_nameString;
 	
-	public MyThread(String name) {
+	public MyThread2(String name) {
 		// TODO Auto-generated constructor stub
 		thread_nameString = name;
 	}
