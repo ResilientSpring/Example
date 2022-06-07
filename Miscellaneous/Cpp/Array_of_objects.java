@@ -1,7 +1,5 @@
 package Cpp;
 
-import javax.security.auth.x500.X500Principal;
-
 class MyClass{
 	private int x;
 	
@@ -39,9 +37,6 @@ public class Array_of_objects {
 		
 		for (i = 0; i < objects.length; i++) 
 			System.out.println("Objects[" + i + "].get_x(): " + objects[i].get_x());
-		
-		
-		
 
 	}
 
