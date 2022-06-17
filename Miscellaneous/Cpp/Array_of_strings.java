@@ -18,6 +18,12 @@ public class Array_of_strings {
 		System.out.println("You entered: ");
 		for (int i = 0; i < word.length; i++)
 			System.out.print((char) word[i]);
+		
+		
+		for (int i = 0; i < word.length; i++) {
+			if(word.toString().equals(dictionary[i][0]))
+				System.out.println(dictionary[i][1]);
+		}
 
 	}
 
