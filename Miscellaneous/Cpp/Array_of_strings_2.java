@@ -2,11 +2,10 @@ package Cpp;
 
 import java.io.IOException;
 
-public class Array_of_strings {
+public class Array_of_strings_2 {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-
 		String dictionary[][] = { { "Pencil", "A written instrument." }, { "Keyboard", "An input device." },
 				{ "rifle", "A shoulder-fired firearm." }, { "Airplane", "A fixed-wing aircraft." },
 				{ "network", "An interconnected group of computers." } };
@@ -19,13 +18,17 @@ public class Array_of_strings {
 		for (int i = 0; i < word.length; i++)
 			System.out.print((char) word[i]);
 		
-		System.out.println(word.toString());
+		char[] input = new char[80];
+		
+		for (int i = 0; i < word.length; i++) 
+			input[i] = (char) word[i];
+		
+		System.out.println(input.toString());
 		
 		for (int i = 0; i < word.length; i++) {
-			if(word.toString().equals(dictionary[i][0]))
+			if(input.toString().equals(dictionary[i][0]))
 				System.out.println(dictionary[i][1]);
 		}
-
 	}
 
 }
