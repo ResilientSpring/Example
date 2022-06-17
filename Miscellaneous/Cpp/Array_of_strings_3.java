@@ -28,7 +28,13 @@ public class Array_of_strings_3 {
 		
 		System.out.println(sBuilder);
 		
-		
+		for (int i = 0; i < dictionary.length; i++) {
+			if(sBuilder.toString().equals(dictionary[i][0]))
+				System.out.println(dictionary[i][1]);
+			
+			if(sBuilder.toString().equals(dictionary[i][0]) && i == dictionary.length -1)
+				System.out.println(sBuilder.toString() + " not found!");
+		}
 	}
 
 }
