@@ -23,6 +23,7 @@ public class Pointer_to_object2 {
 		
 		objectives[0] = new P_example2();
 		objectives[0].set_num(10);
+		objectives[0].show_num();
 
 	}
 
