@@ -3,7 +3,7 @@ public class Triangle5 extends TwoDShape5 {
 	
 	private String styleString;
 
-	public Triangle5(String s,double w, double h) {
+	public Triangle5(String s, double w, double h) {
 		super(w, h);   // Use super() to build the TwoDShape5 constructor. 
 		
 		
