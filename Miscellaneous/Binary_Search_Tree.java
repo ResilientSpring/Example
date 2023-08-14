@@ -29,7 +29,15 @@ public class Binary_Search_Tree {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
+		int value[] = {3, 4, 6, 2, 7, 9, 5, 8};
+		
+		Node root = null;
+		
+		for(int i = 0; i < value.length; i++) {
+			root = insert(root, value[i]);
+		}
+		
 	}
 
 }
