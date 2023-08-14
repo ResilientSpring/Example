@@ -5,6 +5,12 @@ class Node{
 	Node leftNode;
 	Node rightNode;
 	int value;
+	
+	Node(int value){
+		
+		this.value = value;
+	
+	}
 
 }
 
