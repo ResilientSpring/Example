@@ -1,3 +1,4 @@
+import Cpp.static_variable;
 
 public class Binary_Search_Tree {
 
@@ -25,6 +26,18 @@ public class Binary_Search_Tree {
 		}
 
 		return root;
+	}
+	
+	public static void inorder(Node root) {
+		
+		if(root == null)
+			return;
+		
+		inorder(root.left);
+		
+		System.out.println(root.data + " ");
+		
+		inorder(root.right);
 	}
 
 	public static void main(String[] args) {
