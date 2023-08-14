@@ -1,5 +1,3 @@
-import Cpp.static_variable;
-
 public class Binary_Search_Tree {
 
 	private static class Node {
