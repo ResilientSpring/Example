@@ -30,6 +30,10 @@ class Node{
 			return;
 		
 		inorder(root.left);
+		
+		System.out.println(root.data + " ");
+		
+		inorder(root.right);
 	}
 	
 }
