@@ -42,8 +42,14 @@ class Node{
 public class Binary_Search_Tree_non_static_nested_class {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		int value[] = {3, 4, 6, 2, 7, 9, 5, 8};
+		
+		Node rootNode = null;
+		
+		for (int i = 0; i < value.length; i++) {
+			rootNode = 
+		}
 	}
 
 }
