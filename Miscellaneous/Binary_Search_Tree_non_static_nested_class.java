@@ -9,6 +9,7 @@ class Node{
 		this.data = data;
 	}
 	
+	// A method can return any type of data, including class types.
 	Node insertNode(Node root, int value) {
 		
 		if (root == null) {
