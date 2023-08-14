@@ -24,6 +24,13 @@ class Node{
 		return root;		
 	}
 	
+	void inorder(Node root) {
+		if(root == null)
+			return;
+		
+		inorder(root.left);
+	}
+	
 }
 
 
