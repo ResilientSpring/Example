@@ -51,6 +51,7 @@ public class Binary_Search_Tree {
 			root = insert(root, value[i]);
 		}
 		
+		inorder(root);
 	}
 
 }
