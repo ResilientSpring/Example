@@ -9,6 +9,21 @@ class Node{
 		this.data = data;
 	}
 	
+	Node insertNode(Node root, int value) {
+		
+		if (root == null) {
+			root = new Node(value);
+			return root;
+		}
+		
+		if(root.data > value)
+			root.left = insertNode(root.left, value);
+		else 
+			root.right = insertNode(root.right, value);
+		
+		return root;		
+	}
+	
 }
 
 
