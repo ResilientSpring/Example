@@ -44,6 +44,20 @@ public class this_keyword {
 		System.out.println("Before constructing a.");
 		
 		Function_that_returns_objects a = new Function_that_returns_objects(10);
+		
+		System.out.println("After constructing a.");
+		
+		System.out.println();
+		
+		System.out.println("Before call to display().");
+		
+		Function_that_returns_objects.display(a);
+		
+		System.out.println("After display() returns.");
+		
+		System.out.println();
+		
+		
 
 	}
 
