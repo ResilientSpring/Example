@@ -8,6 +8,20 @@ class Function_that_returns_objects{
 		
 		this.value = value;
 		
+		System.out.println("Inside constructors \n");
+	}
+	
+	
+	int get_value() {
+		return value;
+	}
+	
+	
+	// Return an object.
+	Function_that_returns_objects mkBigger() {
+		
+		
+		
 	}
 }
 
