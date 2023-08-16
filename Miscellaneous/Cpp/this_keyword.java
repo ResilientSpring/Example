@@ -1,5 +1,7 @@
 package Cpp;
 
+import org.jcp.xml.dsig.internal.MacOutputStream;
+
 class Function_that_returns_objects{
 	
 	int value;
@@ -57,7 +59,23 @@ public class this_keyword {
 		
 		System.out.println();
 		
+		System.out.println("Before call to mkBigger().");
 		
+		System.out.println();
+		
+		a = a.mkBigger();
+		
+		System.out.println("After mkBigger() returns.");
+		
+		System.out.println();
+		
+		System.out.println("Before the second call to display().");
+		
+		Function_that_returns_objects.display(a);
+		
+		System.out.println("After display() returns.");
+		
+		System.out.println();		
 
 	}
 
