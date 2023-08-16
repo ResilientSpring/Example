@@ -1,7 +1,5 @@
 package Cpp;
 
-import org.jcp.xml.dsig.internal.MacOutputStream;
-
 class Function_that_returns_objects{
 	
 	int value;
