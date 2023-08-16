@@ -29,7 +29,7 @@ class Function_that_returns_objects_2{
 }
 
 
-
+// It seems that a function cannot be declared in the global scope.
 void display(Function_that_returns_objects_2 ob) {
 	
 	System.out.println(ob.get_value());
