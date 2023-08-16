@@ -20,7 +20,9 @@ class Function_that_returns_objects{
 	// Return an object.
 	Function_that_returns_objects mkBigger() {
 		
+		Function_that_returns_objects object = new Function_that_returns_objects(value * 2);
 		
+		return object;
 		
 	}
 }
