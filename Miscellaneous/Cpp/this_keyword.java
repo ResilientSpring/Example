@@ -41,7 +41,9 @@ public class this_keyword {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		System.out.println("Before constructing a.");
 		
+		Function_that_returns_objects a = new Function_that_returns_objects(10);
 
 	}
 
