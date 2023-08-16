@@ -38,6 +38,14 @@ void display(Function_that_returns_objects_2 ob) {
 
 
 
+static void display2(Function_that_returns_objects_2 ob) {
+	
+	System.out.println(ob.get_value());
+	
+}
+
+
+
 public class this_keyword_2 {
 
 	public static void main(String[] args) {
