@@ -25,7 +25,16 @@ class Function_that_returns_objects{
 		return object;
 		
 	}
+	
+	static void display(Function_that_returns_objects ob) {
+		
+		System.out.println(ob.get_value());
+		
+	}
+	
 }
+
+
 
 public class this_keyword {
 
