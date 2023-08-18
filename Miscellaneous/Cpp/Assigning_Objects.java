@@ -44,7 +44,12 @@ public class Assigning_Objects {
 		
 		System.out.println();
 		
-		ob1.set_ab(-1, -1);
+		ob1.set_ab(-1, -1);   // change ob1
+		
+		System.out.println("ob1 after changing ob1: ");
+		ob1.show_ab();
+		System.out.println("ob2 after changing ob1: ");
+		ob2.show_ab();
 
 	}
 
