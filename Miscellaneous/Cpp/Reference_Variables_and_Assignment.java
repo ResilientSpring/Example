@@ -2,7 +2,9 @@ package Cpp;
 
 class car{
 	
-	
+	int passengers;
+	int fuelcap;
+	int mpg;
 	
 }
 
