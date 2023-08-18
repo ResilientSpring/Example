@@ -24,6 +24,12 @@ public class Reference_Variables_and_Assignment {
 		//////////////////////////////////////
 		
 		Car vehicle3 = new Car();
+		
+		vehicle2 = vehicle3;
+		
+		System.out.println(vehicle1.mpg);
+		System.out.println(vehicle2.mpg);
+		System.out.println(vehicle3.mpg);
 
 	}
 
