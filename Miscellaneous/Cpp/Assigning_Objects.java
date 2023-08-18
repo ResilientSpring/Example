@@ -25,6 +25,17 @@ public class Assigning_Objects {
 		
 		Test ob1 = new Test();
 		Test ob2 = new Test();
+		
+		
+		ob1.set_ab(10, 20);
+		ob2.set_ab(0, 0);
+		
+		System.out.println("ob1 before assignment: ");
+		ob1.show_ab();
+		System.out.println("ob2 before assignment: ");
+		ob2.show_ab();
+		System.out.println();
+		ob2 = ob1;             // assign ob1 to ob2
 
 	}
 
