@@ -11,6 +11,12 @@ class Test{
 		
 	}
 	
+	void show_ab() {
+		
+		System.out.println("a is " + a + "\n");
+		System.out.println("b is " + b + "\n");		
+	}
+	
 }
 
 public class Assigning_Objects {
