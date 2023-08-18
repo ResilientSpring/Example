@@ -21,6 +21,8 @@ public class Reference_Variables_and_Assignment_2 {
 		
 		System.out.println(vehicle1.mpg);
 		System.out.println(vehicle2.mpg);
+		
+		System.out.println();
 
 	}
 
