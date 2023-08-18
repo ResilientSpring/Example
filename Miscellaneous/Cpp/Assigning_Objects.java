@@ -36,6 +36,11 @@ public class Assigning_Objects {
 		ob2.show_ab();
 		System.out.println();
 		ob2 = ob1;             // assign ob1 to ob2
+		
+		System.out.println("ob1 after assignment: ");
+		ob1.show_ab();
+		System.out.println("ob2 after assignment: ");
+		ob2.show_ab();
 
 	}
 
