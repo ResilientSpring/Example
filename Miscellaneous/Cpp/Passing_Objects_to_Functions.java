@@ -23,12 +23,19 @@ class My_Class {
 		System.out.println(ob.value);
 
 	}
+	
+	static void change(My_Class ob) {
+		ob.set_value(100);
+		System.out.println("Value of ob inside: ");
+	}
 }
 
 public class Passing_Objects_to_Functions {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		My_Class a = new My_Class(20);
 
 	}
 
