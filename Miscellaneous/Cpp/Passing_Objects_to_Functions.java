@@ -20,7 +20,7 @@ class My_Class {
 
 	static void display(My_Class ob) {
 		
-		System.out.println();
+		System.out.println(ob.value);
 
 	}
 }
