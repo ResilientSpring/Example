@@ -36,6 +36,12 @@ public class Passing_Objects_to_Functions {
 		// TODO Auto-generated method stub
 		
 		My_Class a = new My_Class(20);
+		
+		System.out.println("Value of a before calling change(): ");
+		
+		My_Class.display(a);
+		
+		My_Class.change(a);
 
 	}
 
