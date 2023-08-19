@@ -42,6 +42,10 @@ public class Passing_Objects_to_Functions {
 		My_Class.display(a);
 		
 		My_Class.change(a);
+		
+		System.out.println("Value of a after calling change(): ");
+		
+		My_Class.display(a);
 
 	}
 
