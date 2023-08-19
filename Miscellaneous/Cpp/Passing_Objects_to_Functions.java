@@ -27,6 +27,8 @@ class My_Class {
 	static void change(My_Class ob) {
 		ob.set_value(100);
 		System.out.println("Value of ob inside: ");
+		
+		display(ob);
 	}
 }
 
