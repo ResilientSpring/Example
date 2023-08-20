@@ -37,7 +37,7 @@ public class Passing_Objects_to_Functions {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		My_Class a = new My_Class(20);
+		My_Class a = new My_Class(10);
 		
 		System.out.println("Value of a before calling change(): ");
 		
