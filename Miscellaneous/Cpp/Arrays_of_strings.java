@@ -15,6 +15,8 @@ public class Arrays_of_strings {
 		};
 		
 		System.out.println("numbers[0]: " + numbers[0]);
+		
+		System.out.println("numbers[0][1]: " + numbers[0][1]);
 
 	}
 
