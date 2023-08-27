@@ -27,6 +27,8 @@ class My_Class {
 	static void change(My_Class ob) {
 		ob.set_value(100);
 		System.out.println("Value of ob inside: ");
+		
+		display(ob);
 	}
 }
 
@@ -35,7 +37,7 @@ public class Passing_Objects_to_Functions {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		My_Class a = new My_Class(20);
+		My_Class a = new My_Class(10);
 		
 		System.out.println("Value of a before calling change(): ");
 		
