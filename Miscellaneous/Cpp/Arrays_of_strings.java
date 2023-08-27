@@ -13,6 +13,8 @@ public class Arrays_of_strings {
 				{"Rachel", "555-1400"},
 				{"Sherry", "555-8873"}
 		};
+		
+		System.out.println("numbers[0]: " + numbers[0]);
 
 	}
 
