@@ -19,10 +19,15 @@ abstract class TwoDShapes{
 	}
 	
 	TwoDShapes(double x, String n){
-		
 		width = height = x;
 		name = n;
-		
+	}
+	
+	// Construct an object from an object.
+	TwoDShapes(TwoDShapes ob){
+		width = ob.width;
+		height = ob.height;
+		name = ob.name;
 	}
 }
 
