@@ -1,7 +1,5 @@
 package theoretical;
 
-import Cpp.this_keyword;
-
 class TwoDShaper_2{
 	
 	private double width;
