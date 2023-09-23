@@ -61,6 +61,28 @@ class Triangular_2 extends TwoDShaper_2{
 		// TODO Auto-generated constructor stub
 	}
 	
+	public Triangular_2(String s, double w, double h) {
+		super(w, h);
+		
+		style = s;
+	}
+	
+	Triangular_2(String style, String title, double width, double height){
+		
+		super(width, height, title);
+		
+		this.style = style;
+		
+	}
+	
+	double area() {
+		return getWidth() * getHeight() / 2;
+	}
+	
+	void showStyle() {
+		System.out.println("Triangle is " + style);
+	}
+	
 }
 
 
