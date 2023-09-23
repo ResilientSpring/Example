@@ -17,6 +17,13 @@ abstract class TwoDShapes{
 		height = h;
 		name = n;
 	}
+	
+	TwoDShapes(double x, String n){
+		
+		width = height = x;
+		name = n;
+		
+	}
 }
 
 
