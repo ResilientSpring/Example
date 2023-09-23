@@ -70,6 +70,13 @@ public class Using_super_to_call_superclass_constructor {
 		t2.showStyle();
 		t2.showDim();
 		System.out.println("Area is " + t2.area());		
+		
+		System.out.println();
+		
+		System.out.println("Info for t2: ");
+		t2.showStyle();
+		t2.showDim();
+		System.out.println("Area is " + t2.area());
 
 	}
 
