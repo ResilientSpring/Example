@@ -53,6 +53,17 @@ class TwoDShaper_2{
 }
 
 
+class Triangular_2 extends TwoDShaper_2{
+	
+	private String style;
+	
+	public Triangular_2() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}
+
+
 public class Using_super_to_call_superclass_constructor_2 {
 
 	public static void main(String[] args) {
