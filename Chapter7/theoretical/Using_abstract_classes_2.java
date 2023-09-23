@@ -48,6 +48,13 @@ abstract class TwoDShapes{
 }
 
 
+class Triangle extends TwoDShapes{
+	
+	private String style;
+	
+}
+
+
 public class Using_abstract_classes_2 {
 
 	public static void main(String[] args) {
