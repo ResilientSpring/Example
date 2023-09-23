@@ -52,6 +52,12 @@ class Triangle extends TwoDShapes{
 	
 	private String style;
 	
+	public Triangle() {
+		// TODO Auto-generated constructor stub
+		super();
+		style = "none";
+	}
+	
 }
 
 
