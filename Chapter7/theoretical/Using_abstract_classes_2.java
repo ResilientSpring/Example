@@ -39,6 +39,12 @@ abstract class TwoDShapes{
 	void setWidth(double w) { width = w;}
 	void setHeight(double h) {height = h;}
 	String getName() {return name;}
+	void showDimension() {
+		System.out.println("Width and height are " + width + " and " + height);
+	}
+	
+	// Now, area() is abstract.
+	abstract double area();
 }
 
 
