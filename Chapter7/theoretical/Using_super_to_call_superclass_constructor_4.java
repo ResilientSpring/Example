@@ -52,7 +52,7 @@ class TwoDShaper_4{
 }
 
 
-class Triangular_4 extends TwoDShaper_3{
+class Triangular_4 extends TwoDShaper_4{
 	
 	private String style;
 	
