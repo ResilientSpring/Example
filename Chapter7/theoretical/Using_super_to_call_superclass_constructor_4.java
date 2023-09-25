@@ -103,6 +103,8 @@ public class Using_super_to_call_superclass_constructor_4 {
 		
 		System.out.println("Info for t0: ");
 		t0.showStyle();
+		t0.setHeight(9);
+		t0.setWidth(3);
 		t0.showDim();
 		System.out.println("Area is " + t0.area());
 		
