@@ -8,7 +8,8 @@ class TwoDShaper_4{
 	private String title;
 	
 	public TwoDShaper_4(double w, double h) {
-		// TODO Auto-generated constructor stub
+		width = w;
+		height = h;
 	}
 	
 	public TwoDShaper_4() {
