@@ -107,6 +107,8 @@ public class Using_super_to_call_superclass_constructor_4 {
 		t0.setHeight(9);
 		t0.setWidth(3);
 		t0.showDim();
+		t0.showTitle();
+		t0.showTheTitle();
 		System.out.println("Area is " + t0.area());
 		
 		System.out.println();
