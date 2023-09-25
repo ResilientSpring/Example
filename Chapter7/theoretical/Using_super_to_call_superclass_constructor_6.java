@@ -1,22 +1,22 @@
 package theoretical;
 
 
-class TwoDShaper_4{
+class TwoDShaper_6{
 	
 	private double width;
 	private double height;
-	private String title;
+	String title;
 	
-	public TwoDShaper_4(double w, double h) {
+	public TwoDShaper_6(double w, double h) {
 		width = w;
 		height = h;
 	}
 	
-	public TwoDShaper_4() {
+	public TwoDShaper_6() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	TwoDShaper_4(double width, double height, String title){
+	TwoDShaper_6(double width, double height, String title){
 		
 		this.width = width;
 		this.height = height;
@@ -50,24 +50,28 @@ class TwoDShaper_4{
 		return title;
 	}
 	
+	void showTitle_2() {
+		System.out.println("Triangle is also " + title);
+	}
+	
 }
 
 
-class Triangular_4 extends TwoDShaper_4{
+class Triangular_6 extends TwoDShaper_6{
 	
 	private String style;
 	
-	public Triangular_4() {
+	public Triangular_6() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public Triangular_4(String s, double w, double h) {
+	public Triangular_6(String s, double w, double h) {
 		super(w, h);
 		
 		style = s;
 	}
 	
-	Triangular_4(String style, String title, double width, double height){
+	Triangular_6(String style, String title, double width, double height){
 		
 		super(width, height, title);
 		
@@ -89,18 +93,25 @@ class Triangular_4 extends TwoDShaper_4{
 		
 	}
 	
+	void showTheTitle_2() {
+		System.out.println("Triangle is also " + super.title);   // super is redundant here.
+	}
+	
+	void showTheTitle_3() {
+		System.out.println("Triangle is also " + title);
+	}
+	
 }
 
 
-
-public class Using_super_to_call_superclass_constructor_4 {
+public class Using_super_to_call_superclass_constructor_6 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Triangular_4 t0 = new Triangular_4();
-		Triangular_4 t1 = new Triangular_4("filled", 4.0, 4.0);
-		Triangular_4 t2 = new Triangular_4("outlined", 8.0, 12.0);
-		Triangular_4 t3 = new Triangular_4("Slovenly", "Classy", 8.0, 9.0);
+		
+		Triangular_6 t0 = new Triangular_6();
+		Triangular_6 t1 = new Triangular_6("filled", 4.0, 4.0);
+		Triangular_6 t2 = new Triangular_6("outlined", 8.0, 12.0);
+		Triangular_6 t3 = new Triangular_6("Slovenly", "Classy", 8.0, 9.0);
 		
 		System.out.println("Info for t0: ");
 		t0.showStyle();
@@ -130,9 +141,11 @@ public class Using_super_to_call_superclass_constructor_4 {
 		System.out.println("Info for t3: ");
 		t3.showStyle();
 		t3.showDim();
-		t3.showTitle();
-		t3.showTheTitle();
+		t3.showTitle_2();
+		t3.showTheTitle_2();
+		t3.showTheTitle_3();
 		System.out.println("Area is " + t3.area());
+		
 	}
 
 }
