@@ -134,6 +134,11 @@ public class Super_Class_References_and_Subclass_Objects_2 {
 		System.out.println("Area is " + t1.area());
 		
 		System.out.println();
+		
+		System.out.println("Info for t2: ");
+		t2.showStyle();
+		t2.showDim();
+		System.out.println("Area is " + t2.area());
 
 	}
 
