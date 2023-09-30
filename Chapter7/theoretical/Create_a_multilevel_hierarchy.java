@@ -7,6 +7,7 @@ class TwoDShape_1 {
 	public TwoDShape_1() {
 		width = height = 0.0;
 	}
+	
 }
 
 public class Create_a_multilevel_hierarchy {
