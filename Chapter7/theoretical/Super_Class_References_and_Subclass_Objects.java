@@ -24,6 +24,13 @@ class TwoDShape_2{
 	}
 	
 	
+	// Construct object from an object.
+	TwoDShape_2(TwoDShape_2 ob){
+		width = ob.width;
+		height = ob.height;
+	}
+	
+	
 	double getWidth() {
 		return width;
 	}
@@ -77,6 +84,11 @@ class Triangle_2 extends TwoDShape_2{
 		this.style = style;
 		
 	}
+	
+	Triangle_2(Triangle_2 ob){
+		
+	}
+	
 	
 	double area() {
 		return getWidth() * getHeight() / 2;
