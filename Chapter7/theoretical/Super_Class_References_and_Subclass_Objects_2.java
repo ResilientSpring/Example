@@ -121,6 +121,8 @@ public class Super_Class_References_and_Subclass_Objects_2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Triangle_3 t1 = new Triangle_3("Outlined", 8.0, 12.0);
 
 	}
 
