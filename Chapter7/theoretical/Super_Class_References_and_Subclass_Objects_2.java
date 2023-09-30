@@ -123,6 +123,17 @@ public class Super_Class_References_and_Subclass_Objects_2 {
 		// TODO Auto-generated method stub
 		
 		Triangle_3 t1 = new Triangle_3("Outlined", 8.0, 12.0);
+		
+		// make a copy of t1
+		Triangle_3 t2 = new Triangle_3(t1);
+		
+		
+		System.out.println("Info for t1: ");
+		t1.showStyle();
+		t1.showDim();
+		System.out.println("Area is " + t1.area());
+		
+		System.out.println();
 
 	}
 
