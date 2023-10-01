@@ -198,7 +198,7 @@ public class Implementing_Interfaces {
 		
 		System.out.println("\nStarting at 100");
 		
-		oByTwos4.setStart(100);
+		oByThrees2.setStart(100);
 		
 		for (int i = 0; i < 5; i++) {
 			
