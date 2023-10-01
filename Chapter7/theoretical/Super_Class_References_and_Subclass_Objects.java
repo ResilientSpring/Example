@@ -86,7 +86,7 @@ class Triangle_2 extends TwoDShape_2{
 	}
 	
 	Triangle_2(Triangle_2 ob){
-		
+		super(ob);
 	}
 	
 	
