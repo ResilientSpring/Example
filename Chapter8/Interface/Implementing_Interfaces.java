@@ -1,5 +1,7 @@
 package Interface;
 
+import Cpp.this_keyword;
+
 //An interface specifies what must be done, but not how to get it done.
 interface Series4{
 	
@@ -88,11 +90,11 @@ class ByTwos4 implements Series4{
 }
 
 
-class ByThrees implements Series4{ // implement Series in a different way.
+class ByThrees2 implements Series4{ // implement Series in a different way.
 	int start;
 	int value;
 	
-	ByThrees() {
+	ByThrees2() {
 		// TODO Auto-generated constructor stub
 		start = 0;
 		value = 0;
@@ -111,6 +113,19 @@ class ByThrees implements Series4{ // implement Series in a different way.
 		start = x;
 		value = x;
 	}
+}
+
+
+// If a class includes an interface but does not fully implement the methods defined by that interface, then
+// that class must be declared as abstract.
+abstract class implicate implements Series4{
+	
+	int start;
+	
+	public void setStart(int start) {
+		this.start = start;
+	}
+	
 }
 
 
