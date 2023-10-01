@@ -80,6 +80,8 @@ class ByTwos4 implements Series4{
 		
 	}
 	
+	// Even though the interface does not define this method, it's both permissible and common for classes 
+	// that implement interfaces to define additional members of their own.
 	int getPrevious() {
 		return previous;
 	}
