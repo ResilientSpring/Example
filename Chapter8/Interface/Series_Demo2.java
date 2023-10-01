@@ -46,6 +46,10 @@ class ByTwos3 implements Series3{
 		value = x;
 		
 	}
+	
+	int getPrevious() {
+		return previous;
+	}
 }
 
 public class Series_Demo2 {
