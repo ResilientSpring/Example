@@ -1,7 +1,7 @@
 package Interface;
 
-// An interface specifies what must be done, but not how to do it.
-interface Series2{
+//An interface specifies what must be done, but not how to do it.
+interface Series3{
 	
 	int getNext();
 	void reset();
@@ -9,12 +9,21 @@ interface Series2{
 }
 
 
-// Implement Series.
-class ByTwos2 implements Series2{
+//Implement Series.
+class ByTwos3 implements Series3{
 	int start; 
 	int value;
+	int previous;
 	
-	public ByTwos2() {
+	public ByTwos3() {
+		start = 0;
+		value = 0;
+	}
+	
+	ByTwos3(int previous) {
+		
+		this.previous = previous;
+		
 		start = 0;
 		value = 0;
 	}
@@ -39,11 +48,10 @@ class ByTwos2 implements Series2{
 	}
 }
 
-public class Series_Demo {
+public class Series_Demo2 {
 
 	public static void main(String[] args) {
-		
-		ByTwos2 oByTwos2 = new ByTwos2();
+		// TODO Auto-generated method stub
 
 	}
 
