@@ -10,11 +10,11 @@ interface Series2{
 
 
 // Implement Series.
-class ByTwos implements Series2{
+class ByTwos2 implements Series2{
 	int start; 
 	int value;
 	
-	public ByTwos() {
+	public ByTwos2() {
 		start = 0;
 		value = 0;
 	}
@@ -28,6 +28,12 @@ class ByTwos implements Series2{
 	
 	public void reset() {
 		value = start;
+	}
+
+	@Override
+	public void setStart(int x) {
+		// TODO Auto-generated method stub
+		
 	}
 }
 
