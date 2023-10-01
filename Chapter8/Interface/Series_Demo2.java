@@ -72,7 +72,7 @@ public class Series_Demo2 {
 			System.out.println("Next value is " + obByTwos3.getNext());
 		}
 		
-		System.out.println("\n Starting at 100");
+		System.out.println("\nStarting at 100");
 		obByTwos3.setStart(100);
 		
 		for (int i = 0; i < 5; i++) {
