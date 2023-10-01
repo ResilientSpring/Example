@@ -92,10 +92,24 @@ class ByThrees implements Series4{ // implement Series in a different way.
 	int start;
 	int value;
 	
-	public ByThrees() {
+	ByThrees() {
 		// TODO Auto-generated constructor stub
 		start = 0;
 		value = 0;
+	}
+	
+	public int getNext() {
+		value += 3;
+		return value;
+	}
+	
+	public void reset() {
+		value = start;
+	}
+	
+	public void setStart(int x) {
+		start = x;
+		value = x;
 	}
 }
 
