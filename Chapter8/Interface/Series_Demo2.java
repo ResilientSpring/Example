@@ -56,6 +56,8 @@ public class Series_Demo2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		ByTwos3 obByTwos3 = new ByTwos3(9);
 
 	}
 
