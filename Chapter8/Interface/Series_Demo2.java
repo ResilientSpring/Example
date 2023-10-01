@@ -58,6 +58,27 @@ public class Series_Demo2 {
 		// TODO Auto-generated method stub
 		
 		ByTwos3 obByTwos3 = new ByTwos3(9);
+		
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Next value is " + obByTwos3.getNext());
+		}
+		
+		System.out.println("\nResetting");
+		
+		obByTwos3.reset();
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Next value is " + obByTwos3.getNext());
+		}
+		
+		System.out.println("\n Starting at 100");
+		obByTwos3.setStart(100);
+		
+		for (int i = 0; i < 5; i++) {
+			
+			System.out.println("Next value is " + obByTwos3.getNext());
+		}
 
 	}
 
