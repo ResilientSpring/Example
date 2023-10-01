@@ -3,6 +3,9 @@ package Interface;
 // An interface specifies what must be done, but not how to do it.
 interface Series2{
 	
+	int getNext();
+	void reset();
+	void setStart(int x);
 }
 
 public class Series_Demo {
