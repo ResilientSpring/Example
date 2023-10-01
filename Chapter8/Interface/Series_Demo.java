@@ -19,8 +19,9 @@ class ByTwos implements Series2{
 		value = 0;
 	}
 	
-	int getNext() {
-		
+	public int getNext() {
+		value += 2;
+		return value;
 	}
 }
 
