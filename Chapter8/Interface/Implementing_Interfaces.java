@@ -88,6 +88,18 @@ class ByTwos4 implements Series4{
 }
 
 
+class ByThrees implements Series4{ // implement Series in a different way.
+	int start;
+	int value;
+	
+	public ByThrees() {
+		// TODO Auto-generated constructor stub
+		start = 0;
+		value = 0;
+	}
+}
+
+
 public class Implementing_Interfaces {
 
 	public static void main(String[] args) {
