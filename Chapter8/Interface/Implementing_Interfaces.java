@@ -1,7 +1,5 @@
 package Interface;
 
-import Cpp.this_keyword;
-
 //An interface specifies what must be done, but not how to get it done.
 interface Series4{
 	
@@ -133,6 +131,81 @@ public class Implementing_Interfaces {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		ByTwos2_ oByTwos2_ = new ByTwos2_();
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Next value is " + oByTwos2_.getNext());
+		}
+		
+		System.out.println("\nResetting");
+		
+		oByTwos2_.reset();
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Next value is " + oByTwos2_.getNext());
+		}
+		
+		System.out.println("\nStarting at 100");
+		
+		oByTwos2_.setStart(100);
+		
+		for (int i = 0; i < 5; i++) {
+			
+			System.out.println("Next value is " + oByTwos2_.getNext());
+		}
+		
+		System.out.println();
+		
+		ByTwos4 oByTwos4 = new ByTwos4(9);
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Next value is " + oByTwos4.getNext());
+		}
+		
+		System.out.println("\nResetting");
+		
+		oByTwos4.reset();
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Next value is " + oByTwos4.getNext());
+		}
+		
+		System.out.println("\nStarting at 100");
+		
+		oByTwos4.setStart(100);
+		
+		for (int i = 0; i < 5; i++) {
+			
+			System.out.println("Next value is " + oByTwos4.getNext());
+		}
+		
+		System.out.println();
+		
+		ByThrees2 oByThrees2 = new ByThrees2();
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Next value is " + oByThrees2.getNext());
+		}
+		
+		System.out.println("\nResetting");
+		
+		oByThrees2.reset();
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Next value is " + oByThrees2.getNext());
+		}
+		
+		System.out.println("\nStarting at 100");
+		
+		oByTwos4.setStart(100);
+		
+		for (int i = 0; i < 5; i++) {
+			
+			System.out.println("Next value is " + oByThrees2.getNext());
+		}
+		
+		System.out.println();
 
 	}
 
