@@ -44,6 +44,27 @@ public class Series_Demo {
 	public static void main(String[] args) {
 		
 		ByTwos2 oByTwos2 = new ByTwos2();
+		
+		for (int i = 0; i < 5; i++) {
+			
+			System.out.println("Next value is " + oByTwos2.getNext());
+		}
+		
+		System.out.println("\nResetting");
+		
+		oByTwos2.reset();
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Next value is " + oByTwos2.getNext());
+		}
+		
+		System.out.println("\nStarting at 100");
+		
+		oByTwos2.setStart(100);
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Next value is " + oByTwos2.getNext());
+		}
 
 	}
 
