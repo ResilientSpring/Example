@@ -32,7 +32,9 @@ class ByTwos2 implements Series2{
 
 	@Override
 	public void setStart(int x) {
-		// TODO Auto-generated method stub
+		
+		start = x;
+		value = x;
 		
 	}
 }
