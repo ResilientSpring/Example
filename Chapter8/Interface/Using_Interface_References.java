@@ -77,7 +77,21 @@ public class Using_Interface_References {
 
 	public static void main(String[] args) {
 		
+		ByTwoss twoOb = new ByTwoss();
+		ByThreess threeOb = new ByThreess();
+		Seriess ob;
 		
+		for (int i = 0; i < 5; i++) {
+			
+			ob = twoOb;
+			
+			System.out.println("Next ByTwoss value is " + ob.getNext());
+			
+			ob = threeOb;
+			
+			System.out.println("Next ByThreesb value is " + ob.getNext());
+			
+		}
 
 	}
 
