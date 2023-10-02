@@ -34,7 +34,7 @@ public class SupSubRef {
 		System.out.println("X2.a: " + x2.a);
 		System.out.println("x.a: " + x.a);
 		
-		x2 = y;  // still ok because Y2 is derived from X2. Both of somewhat same type.
+		x2 = y;  // still ok because Y is derived from X.
 		System.out.println("X2.a: " + x2.a);
 		
 		// X references know only about X members
