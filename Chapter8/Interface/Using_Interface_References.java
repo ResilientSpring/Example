@@ -7,7 +7,33 @@ interface Seriess{
 	void setStart(int x);
 }
 
-class ByTwoss{
+class ByTwoss implements Seriess{
+	
+	int start;
+	int value;
+	
+	public ByTwoss() {
+		start = 0;
+		value = 0;
+	}
+
+	@Override
+	public int getNext() {
+		value += 2;
+		return value;
+	}
+
+	@Override
+	public void reset() {
+		value = start;
+		
+	}
+
+	@Override
+	public void setStart(int x) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
 
