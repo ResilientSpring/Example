@@ -1,5 +1,3 @@
-import java.awt.PrintGraphics;
-
 // This will not compile 
 class X {
 	int a;
