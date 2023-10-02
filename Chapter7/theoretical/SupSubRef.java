@@ -2,20 +2,20 @@ package theoretical;
 
 //A superclass reference can refer to a subclass object. 
 
-class X2 {
+class X {
 	int a;
 	
-	public X2(int i) {
+	public X(int i) {
 		// TODO Auto-generated constructor stub
 		
 		a = i;
 	}
 }
 
-class Y2 extends X2 {
+class Y extends X {
 	int b;
 	
-	public Y2(int i, int j) {
+	public Y(int i, int j) {
 		// TODO Auto-generated constructor stub
 		super(j);
 		b = i;
@@ -26,9 +26,9 @@ public class SupSubRef {
 
 	public static void main(String[] args) {
 		
-		X2 x = new X2(10);
-		X2 x2;
-		Y2 y = new Y2(5, 6);
+		X x = new X(10);
+		X x2;
+		Y y = new Y(5, 6);
 		
 		x2 = x; // OK, both of same type.
 		System.out.println("X2.a: " + x2.a);
