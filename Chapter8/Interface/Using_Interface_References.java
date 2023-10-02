@@ -85,11 +85,11 @@ public class Using_Interface_References {
 			
 			ob = twoOb;
 			
-			System.out.println("Next ByTwoss value is " + ob.getNext());
+			System.out.println("Next ByTwos value is " + ob.getNext());
 			
 			ob = threeOb;
 			
-			System.out.println("Next ByThreesb value is " + ob.getNext());
+			System.out.println("Next ByThrees value is " + ob.getNext());
 			
 		}
 
