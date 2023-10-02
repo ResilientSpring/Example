@@ -38,6 +38,38 @@ class ByTwoss implements Seriess{
 	
 }
 
+
+class ByThreess implements Seriess{
+	
+	int start;
+	int value;
+	
+	public ByThreess() {
+		start = 0;
+		value = 0;
+	}
+
+	@Override
+	public int getNext() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void reset() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setStart(int x) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+
 public class Using_Interface_References {
 
 	public static void main(String[] args) {
