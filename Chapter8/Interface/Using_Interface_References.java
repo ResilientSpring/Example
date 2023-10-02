@@ -51,8 +51,10 @@ class ByThreess implements Seriess{
 
 	@Override
 	public int getNext() {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		value += 3;
+		
+		return value;
 	}
 
 	@Override
@@ -73,7 +75,6 @@ class ByThreess implements Seriess{
 public class Using_Interface_References {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		
 
