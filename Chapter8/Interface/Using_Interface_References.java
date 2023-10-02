@@ -60,13 +60,14 @@ class ByThreess implements Seriess{
 	@Override
 	public void reset() {
 		// TODO Auto-generated method stub
-		
+		value = start;
 	}
 
 	@Override
 	public void setStart(int x) {
 		// TODO Auto-generated method stub
-		
+		start = x;
+		value = x;
 	}
 	
 }
