@@ -158,6 +158,11 @@ public class Try_This_8_1 {
 		
 		// Show the queue.
 		System.out.print("Contents of fixed queue: ");
+		
+		for (i = 0; i < 10; i++) {
+			ch = iQ.get();
+			System.out.print(ch);
+		}
 
 	}
 
