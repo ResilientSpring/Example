@@ -1,7 +1,5 @@
 // A character queue interface
 
-import javax.print.attribute.Size2DSyntax;
-
 interface ICharQ{
 	
 	// Put a character into the queue.
@@ -141,6 +139,12 @@ public class Try_This_8_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		FixedQueue q1 = new FixedQueue(10);
+		DynQueue q2 = new DynQueue(5);
+		CircularQueue q3 = new CircularQueue(10);
+		
+		ICharQ iQ;
 
 	}
 
