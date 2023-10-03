@@ -14,14 +14,16 @@ class FixedQueue implements ICharQ{
 	
 	private char q[];  // This array holds the queue. 
 	private int putloc, getloc; // The put and get indices.
+	
+	public FixedQueue(int size) {
+		q = new char[size];  // allocate memory for queue.
+		putloc = getloc = 0;
+	}
 
-	@Override
 	public void put(char ch) {
-		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public char get() {
 		// TODO Auto-generated method stub
 		return 0;
