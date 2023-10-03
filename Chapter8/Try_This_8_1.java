@@ -30,8 +30,13 @@ class FixedQueue implements ICharQ{
 	}
 
 	public char get() {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		if (getloc == putloc) {
+			System.out.println(" - Queue is empty.");
+			
+			return (char) 0;
+		}
+		return q[getloc++];
 	}
 	
 }
