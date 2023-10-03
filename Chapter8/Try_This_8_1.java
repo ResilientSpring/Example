@@ -9,6 +9,27 @@ interface ICharQ{
 }
 
 
+// A fixed-size queue class for characters.
+class FixedQueue implements ICharQ{
+	
+	private char q[];  // This array holds the queue. 
+	private int putloc, getloc; // The put and get indices.
+
+	@Override
+	public void put(char ch) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public char get() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}
+
+
 public class Try_This_8_1 {
 
 	public static void main(String[] args) {
