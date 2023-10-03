@@ -157,6 +157,7 @@ public class Try_This_8_1 {
 		}
 		
 		// Show the queue.
+		System.out.print("Contents of fixed queue: ");
 
 	}
 
