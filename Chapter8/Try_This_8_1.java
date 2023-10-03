@@ -163,6 +163,13 @@ public class Try_This_8_1 {
 			ch = iQ.get();
 			System.out.print(ch);
 		}
+		
+		System.out.println();
+		
+		iQ = q3;
+		
+		// Put some characters into circular queue.
+		
 
 	}
 
