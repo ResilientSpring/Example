@@ -21,7 +21,12 @@ class FixedQueue implements ICharQ{
 	}
 
 	public void put(char ch) {
+		if(putloc == q.length) {
+			System.out.println(" - Queue is full.");
+			return;
+		}
 		
+		q[putloc++] = ch;
 	}
 
 	public char get() {
