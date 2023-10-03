@@ -145,6 +145,9 @@ public class Try_This_8_1 {
 		CircularQueue q3 = new CircularQueue(10);
 		
 		ICharQ iQ;
+		
+		char ch; 
+		int i;
 
 	}
 
