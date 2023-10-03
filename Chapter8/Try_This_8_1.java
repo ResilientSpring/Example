@@ -41,6 +41,21 @@ class FixedQueue implements ICharQ{
 	
 }
 
+class CircularQueue implements ICharQ{
+	private char q[];  // this array holds the queue.
+	private int putloc, getloc;  // the put and get indices.
+
+	public void put(char ch) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public char get() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}
+
 
 public class Try_This_8_1 {
 
