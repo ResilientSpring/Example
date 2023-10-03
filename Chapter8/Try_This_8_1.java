@@ -1,4 +1,7 @@
 // A character queue interface
+
+import javax.print.attribute.Size2DSyntax;
+
 interface ICharQ{
 	
 	// Put a character into the queue.
@@ -90,17 +93,45 @@ class CircularQueue implements ICharQ{
 
 
 class DynQueue implements ICharQ{
+	
+	private char q[];
+	private int putloc, getloc;
+	
+	public DynQueue(int size) {
+		q = new char[size];
+		putloc = getloc = 0;
+	}
 
-	@Override
+
 	public void put(char ch) {
 		// TODO Auto-generated method stub
 		
+		if (putloc == q.length) {
+			// increase queue size
+			char t[] = new char[q.length * 2];
+			
+			// copy elements into new queue
+			for (int i = 0; i < q.length; i++) {
+
+				t[i] = q[i];
+				
+				q = t;
+			}
+			q[putloc++] = ch;
+		}
+		
 	}
 
-	@Override
+
 	public char get() {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		if (getloc == putloc) {
+			System.out.println(" - Queue is empty.");
+			return (char) 0;
+		} 
+		
+		return q[getloc++];
+		
 	}
 	
 }
