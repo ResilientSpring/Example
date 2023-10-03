@@ -148,6 +148,15 @@ public class Try_This_8_1 {
 		
 		char ch; 
 		int i;
+		
+		iQ = q1;
+		
+		// Put some characters into fixed queue.
+		for (i = 0; i < 10; i++) {
+			iQ.put((char) ('A' + i));
+		}
+		
+		// Show the queue.
 
 	}
 
