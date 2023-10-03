@@ -166,10 +166,31 @@ public class Try_This_8_1 {
 		
 		System.out.println();
 		
+		iQ = q2;
+		
+		// Put some characters into dynamic queue.
+		for (i = 0; i < 10; i++) {
+			iQ.put((char) ('Z' - i));
+		}
+		
+		// Show the queue.
+		System.out.print("Contents of dynamic queue: ");
+		
+		
+		System.out.println();
+		
 		iQ = q3;
 		
 		// Put some characters into circular queue.
+		for (i = 0; i < 20; i++) {
+			iQ.put((char) ('A' + i));
+		}
 		
+		// Show the queue.
+		System.out.print("Contents of circular queue: ");
+		for (i = 0; i < 10; i++) {
+			
+		}
 
 	}
 
