@@ -186,7 +186,7 @@ public class Try_This_8_1 {
 		iQ = q3;
 		
 		// Put some characters into circular queue.
-		for (i = 0; i < 20; i++) {
+		for (i = 0; i < 10; i++) {
 			iQ.put((char) ('A' + i));
 		}
 		
@@ -200,7 +200,7 @@ public class Try_This_8_1 {
 		System.out.println();
 		
 		// Put more characters into circular queue.
-		for (i = 0; i < 20; i++) {
+		for (i = 10; i < 20; i++) {
 			iQ.put((char) ('A' + i));
 		}
 		
