@@ -19,7 +19,7 @@ class FixedQueue implements ICharQ{
 	public FixedQueue(int size) {
 		q = new char[size];  // allocate memory for queue.
 
-putloc = getloc = 0;
+		putloc = getloc = 0;
 	}
 
 	public void put(char ch) {
