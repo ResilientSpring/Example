@@ -18,7 +18,8 @@ class FixedQueue implements ICharQ{
 	
 	public FixedQueue(int size) {
 		q = new char[size];  // allocate memory for queue.
-		putloc = getloc = 0;
+
+putloc = getloc = 0;
 	}
 
 	public void put(char ch) {
@@ -180,7 +181,6 @@ public class Try_This_8_1 {
 			System.out.print(ch);
 		}
 		
-		
 		System.out.println();
 		
 		iQ = q3;
@@ -193,7 +193,31 @@ public class Try_This_8_1 {
 		// Show the queue.
 		System.out.print("Contents of circular queue: ");
 		for (i = 0; i < 10; i++) {
-			
+			ch = iQ.get();
+			System.out.print(ch);
+		}
+		
+		System.out.println();
+		
+		// Put more characters into circular queue.
+		for (i = 0; i < 20; i++) {
+			iQ.put((char) ('A' + i));
+		}
+		
+		// Show the queue.
+		System.out.print("Contents of circular queue: ");
+		for (i = 0; i < 10; i++) {			
+			ch = iQ.get();
+			System.out.print(ch);
+		}
+		
+		System.out.println("\nStore and consume from" + " circular queue.");
+		
+		// Store in and consume from circular queue.
+		for (i = 0; i < 20; i++) {
+			iQ.put((char) ('A' + i));
+			ch = iQ.get();
+			System.out.print(ch);
 		}
 
 	}
