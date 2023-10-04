@@ -18,6 +18,7 @@ class FixedQueue implements ICharQ{
 	
 	public FixedQueue(int size) {
 		q = new char[size];  // allocate memory for queue.
+
 		putloc = getloc = 0;
 	}
 
@@ -112,12 +113,12 @@ class DynQueue implements ICharQ{
 			for (int i = 0; i < q.length; i++) {
 
 				t[i] = q[i];
-				
-				q = t;
 			}
-			q[putloc++] = ch;
+			
+			q = t;
 		}
 		
+		q[putloc++] = ch;
 	}
 
 
@@ -180,20 +181,43 @@ public class Try_This_8_1 {
 			System.out.print(ch);
 		}
 		
-		
 		System.out.println();
 		
 		iQ = q3;
 		
 		// Put some characters into circular queue.
-		for (i = 0; i < 20; i++) {
+		for (i = 0; i < 10; i++) {
 			iQ.put((char) ('A' + i));
 		}
 		
 		// Show the queue.
 		System.out.print("Contents of circular queue: ");
 		for (i = 0; i < 10; i++) {
-			
+			ch = iQ.get();
+			System.out.print(ch);
+		}
+		
+		System.out.println();
+		
+		// Put more characters into circular queue.
+		for (i = 10; i < 20; i++) {
+			iQ.put((char) ('A' + i));
+		}
+		
+		// Show the queue.
+		System.out.print("Contents of circular queue: ");
+		for (i = 0; i < 10; i++) {			
+			ch = iQ.get();
+			System.out.print(ch);
+		}
+		
+		System.out.println("\nStore and consume from" + " circular queue.");
+		
+		// Store in and consume from circular queue.
+		for (i = 0; i < 20; i++) {
+			iQ.put((char) ('A' + i));
+			ch = iQ.get();
+			System.out.print(ch);
 		}
 
 	}
