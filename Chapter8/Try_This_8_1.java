@@ -113,12 +113,12 @@ class DynQueue implements ICharQ{
 			for (int i = 0; i < q.length; i++) {
 
 				t[i] = q[i];
-				
-				q = t;
 			}
-			q[putloc++] = ch;
+			
+			q = t;
 		}
 		
+		q[putloc++] = ch;
 	}
 
 
