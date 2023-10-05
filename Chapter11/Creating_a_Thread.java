@@ -1,9 +1,27 @@
 // Create a thread by implementing Runnable.
 class MyThread2023 implements Runnable{
 	// Objects of MyThread can be run in their own threads because MyThread implements Runnable.
+	
+	String thrdName;
+	
+	public MyThread2023(String name) {
+		thrdName = name;
+	}
 
-	public void run() {
+	// Entry point of thread.
+	public void run() {        // Threads start executing here.
 		
+		System.out.println(thrdName + " starting.");
+		
+		try {
+			for (int count = 0; count < 10; count++) {
+				
+				Thread.sleep(400);
+				
+			}
+		} catch (InterruptedException exc) {
+			// TODO: handle exception
+		}
 		
 	}
 	
