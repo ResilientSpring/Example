@@ -50,6 +50,8 @@ public class Implementing_Interfaces_implement_clause {
 		
 		peterKids.fatherString = "Bill";
 		peterKids.motherString = "Laura";
+		peterKids.baby_talks();
+		peterKids.parenting();
 		
 
 	}
