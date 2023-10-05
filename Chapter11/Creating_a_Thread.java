@@ -1,8 +1,9 @@
 // Create a thread by implementing Runnable.
 class MyThread2023 implements Runnable{
+	// Objects of MyThread can be run in their own threads because MyThread implements Runnable.
 
 	public void run() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 	
