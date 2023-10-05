@@ -18,6 +18,7 @@ class MyThread2023 implements Runnable{
 				
 				Thread.sleep(400);
 				
+				System.out.println("In " + thrdName + ", count is " + count);
 			}
 		} catch (InterruptedException exc) {
 			// TODO: handle exception
