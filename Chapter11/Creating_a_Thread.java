@@ -41,6 +41,9 @@ public class Creating_a_Thread {
 		
 		// Next, construct a thread from that object.
 		Thread newThread = new Thread(myThread2023);  // Construct a thread on that object.
+		
+		// Finally, start execution of the thread.
+		newThread.start();   // Start running the thread.
 
 	}
 
