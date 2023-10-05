@@ -22,7 +22,7 @@ class kids extends parents implements management{
 	@Override
 	public void parenting() {
 		// TODO Auto-generated method stub
-		System.out.println(fatherString + "'s motherhood");
+		System.out.println(fatherString + "'s fatherhood");
 	}
 
 	@Override
