@@ -16,7 +16,7 @@ class parents {
 	
 }
 
-
+// The general form of a class that includes the implements clause looks like this:
 class kids extends parents implements management{
 
 	@Override
