@@ -33,6 +33,11 @@ public class Creating_a_Thread {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		System.out.println("Main thread starting.");
+		
+		// First, construct a MyThread object.
+		MyThread2023 myThread2023 = new MyThread2023("Child #1");  // Create a runnable object.
 
 	}
 
