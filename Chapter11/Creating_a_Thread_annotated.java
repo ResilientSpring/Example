@@ -16,6 +16,7 @@ public class Creating_a_Thread_annotated {
 		System.out.println("Main thread starting.");
 		
 		// To create another thread from within the main thread, construct a MyThread object first.
+		
 
 	}
 
