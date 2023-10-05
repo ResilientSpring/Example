@@ -38,6 +38,9 @@ public class Creating_a_Thread {
 		
 		// First, construct a MyThread object.
 		MyThread2023 myThread2023 = new MyThread2023("Child #1");  // Create a runnable object.
+		
+		// Next, construct a thread from that object.
+		Thread newThread = new Thread(myThread2023);  // Construct a thread on that object.
 
 	}
 
