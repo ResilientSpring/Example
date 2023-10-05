@@ -23,7 +23,7 @@ class MyThread2023 implements Runnable{
 		} catch (InterruptedException exc) {
 			System.out.println(thrdName + " interrupted.");
 		}
-		
+		System.out.println(thrdName + " terminating.");
 	}
 	
 }
@@ -33,6 +33,28 @@ public class Creating_a_Thread {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		System.out.println("Main thread starting.");
+		
+		// First, construct a MyThread object.
+		MyThread2023 myThread2023 = new MyThread2023("Child #1");  // Create a runnable object.
+		
+		// Next, construct a thread from that object.
+		Thread newThread = new Thread(myThread2023);  // Construct a thread on that object.
+		
+		// Finally, start execution of the thread.
+		newThread.start();   // Start running the thread.
+		
+		for (int i = 0; i < 50; i++) {
+			System.out.print(".");
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException exc) {
+				System.out.println("Main thread interrupted.");
+			}
+		}
+		
+		System.out.println("Main thread ending.");
 
 	}
 
