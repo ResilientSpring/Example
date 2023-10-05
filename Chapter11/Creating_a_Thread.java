@@ -23,7 +23,7 @@ class MyThread2023 implements Runnable{
 		} catch (InterruptedException exc) {
 			System.out.println(thrdName + " interrupted.");
 		}
-		
+		System.out.println(thrdName + " terminating.");
 	}
 	
 }
