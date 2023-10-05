@@ -17,6 +17,9 @@ public class Creating_a_Thread_annotated {
 		
 		// To create another thread from within the main thread, construct a MyThread object first.
 		
+		
+		Thread newtThread = new Thread();
+//		newtThread.setContextClassLoader(myThread2023);
 
 	}
 
