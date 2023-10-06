@@ -10,7 +10,7 @@ class MyThread202310 implements Runnable{
 		
 	}
 
-	// Inside run(), you will define the code that constitute a thread. main() is a thread, too.
+	// Inside run(), you can write some code that constitutes a thread. main() is a thread, too.
 	public void run() {
 		
 		System.out.println(thread_nameString + " starting.");
