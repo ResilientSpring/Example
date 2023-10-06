@@ -26,6 +26,7 @@ public class Creating_a_Thread_annotated {
 		System.out.println("Main thread starting.");
 		
 		// Create a runnable object. MyThread202310's object is runnable because it has run() method.
+		MyThread202310 myThread202310 = new MyThread202310("Child #1");
 		
 		// You create a thread by instantiating an object of type Thread whose constructor encapsulates an object
 		// that is runnable.
