@@ -1,4 +1,5 @@
 // Java defines two ways in which you can create a runnable object.
+// You can implement the Runnable interface or you can extend the Thread class.
 class MyThread202310 implements Runnable{
 
 	public void run() {
