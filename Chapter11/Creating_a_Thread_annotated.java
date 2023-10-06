@@ -1,6 +1,14 @@
-// Java defines two ways in which you can create a runnable object.
+// Java defines two ways in which you can create a runnable object:
 // You can implement the Runnable interface or you can extend the Thread class.
 class MyThread202310 implements Runnable{
+	
+	String thread_nameString;
+	
+	public MyThread202310(String thread_nameString) {
+		
+		this.thread_nameString = thread_nameString;
+		
+	}
 
 	public void run() {
 		
