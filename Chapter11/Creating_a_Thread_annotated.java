@@ -53,7 +53,9 @@ public class Creating_a_Thread_annotated {
 		// Once created, the new thread will not start running until you call its start() method.
 		newThread.start();
 		// In essence, start() executes a call to run().
+		
 
+		System.out.println("Main thread ending.");
 	}
 
 }
