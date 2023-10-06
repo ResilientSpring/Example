@@ -15,6 +15,17 @@ class MyThread202310 implements Runnable{
 		
 		System.out.println(thread_nameString + " starting.");
 		
+		try {
+			
+			for (int count = 0; count < 10; count++) {
+				
+				Thread.sleep(400);
+			}
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
 	}
 	
 }
