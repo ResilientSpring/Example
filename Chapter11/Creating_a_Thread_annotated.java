@@ -1,4 +1,4 @@
-// To create a new thread, your program will either extend Thread or implement the Runnable interface.
+// Java defines two ways in which you can create a runnable object.
 class MyThread202310 implements Runnable{
 
 	public void run() {
