@@ -15,6 +15,22 @@ class MyThread202310 implements Runnable{
 		
 		System.out.println(thread_nameString + " starting.");
 		
+		try {
+			// a loop is established that counts from 0 to 9.
+			for (int count = 0; count < 10; count++) {
+				
+				Thread.sleep(400);
+				System.out.println("In " + thread_nameString + ", count is " + count);
+			}
+			
+		} catch (InterruptedException e) {
+			
+			System.out.println(thread_nameString + " interrupted.");
+			
+		}
+		
+		// Thread will end when run() ends.
+		System.out.println(thread_nameString + " terminating.");
 	}
 	
 }
@@ -31,9 +47,15 @@ public class Creating_a_Thread_annotated {
 		
 		// You create a thread by instantiating an object of type Thread whose constructor encapsulates an object
 		// that is runnable.
-		Thread newtThread = new Thread(myThread202310);
-//		newtThread.setContextClassLoader(myThread2023);
+		Thread newThread = new Thread(myThread202310);
+		// Now, the other thread is constructed.
+		
+		// Once created, the new thread will not start running until you call its start() method.
+		newThread.start();
+		// In essence, start() executes a call to run().
+		
 
+		System.out.println("Main thread ending.");
 	}
 
 }
