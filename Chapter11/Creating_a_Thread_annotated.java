@@ -28,6 +28,8 @@ class MyThread202310 implements Runnable{
 			System.out.println(thread_nameString + " interrupted.");
 			
 		}
+		
+		// Thread will end when run() ends.
 		System.out.println(thread_nameString + " terminating.");
 	}
 	
