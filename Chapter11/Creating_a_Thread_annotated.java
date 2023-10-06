@@ -25,7 +25,7 @@ public class Creating_a_Thread_annotated {
 	public static void main(String[] args) {
 		System.out.println("Main thread starting.");
 		
-		// To create another thread from within the main thread, construct a MyThread object first.
+		// Create a runnable object. MyThread202310's object is runnable because it has run() method.
 		
 		// You create a thread by instantiating an object of type Thread whose constructor encapsulates an object
 		// that is runnable.
