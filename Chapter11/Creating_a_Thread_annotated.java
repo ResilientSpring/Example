@@ -16,7 +16,7 @@ class MyThread202310 implements Runnable{
 		System.out.println(thread_nameString + " starting.");
 		
 		try {
-			
+			// a loop is established that counts from 0 to 9.
 			for (int count = 0; count < 10; count++) {
 				
 				Thread.sleep(400);
