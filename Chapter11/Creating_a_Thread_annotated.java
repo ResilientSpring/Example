@@ -30,7 +30,7 @@ public class Creating_a_Thread_annotated {
 		
 		// You create a thread by instantiating an object of type Thread whose constructor encapsulates an object
 		// that is runnable.
-		Thread newtThread = new Thread();
+		Thread newtThread = new Thread(myThread202310);
 //		newtThread.setContextClassLoader(myThread2023);
 
 	}
