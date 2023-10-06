@@ -20,12 +20,15 @@ class MyThread202310 implements Runnable{
 			for (int count = 0; count < 10; count++) {
 				
 				Thread.sleep(400);
+				System.out.println("In " + thread_nameString + ", count is " + count);
 			}
 			
-		} catch (Exception e) {
-			// TODO: handle exception
+		} catch (InterruptedException e) {
+			
+			System.out.println(thread_nameString + " interrupted.");
+			
 		}
-		
+		System.out.println(thread_nameString + " terminating.");
 	}
 	
 }
