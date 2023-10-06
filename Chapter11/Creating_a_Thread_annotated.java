@@ -12,6 +12,7 @@ class MyThread202310 implements Runnable{
 
 	public void run() {
 		
+		System.out.println(thread_nameString + " starting.");
 		
 	}
 	
