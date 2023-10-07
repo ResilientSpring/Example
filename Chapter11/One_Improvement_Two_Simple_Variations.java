@@ -2,13 +2,13 @@
 // an instance variable called thread.
 // It also sets the name of thread and provides a factory method to create and start a thread.
 
-class MyThread20231007 implements Runnable{
+class MyThread20231007_2 implements Runnable{
 	
 	Thread thread;  // A reference to the thread is stored in thread.
 	
 	// Construct a new thread using this Runnable and give it a name.
-	public MyThread20231007(String name) {
-		thread = new Thread(this, name);
+	public MyThread20231007_2(String name) {
+		thread = new Thread(thread, name);
 	}
 
 	public void run() {
@@ -19,7 +19,7 @@ class MyThread20231007 implements Runnable{
 }
 
 
-public class One_Improvement_and_Two_Simple_Variations {
+public class One_Improvement_Two_Simple_Variations {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
