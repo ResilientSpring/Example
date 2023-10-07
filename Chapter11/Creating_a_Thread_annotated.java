@@ -15,11 +15,13 @@ class MyThread202310 implements Runnable{
 		
 		System.out.println(thread_nameString + " starting.");
 		
+		
+		// Because Thread.sleep() can throw an InterruptedException, it must be wrapped in a try block.
 		try {
 			// a loop is established that counts from 0 to 9.
 			for (int count = 0; count < 10; count++) {
 				
-				Thread.sleep(400);
+				Thread.sleep(400); // causes the thread to suspend for 400 milliseconds.
 				System.out.println("In " + thread_nameString + ", count is " + count);
 			}
 			
