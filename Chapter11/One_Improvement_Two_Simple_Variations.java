@@ -20,7 +20,18 @@ class MyThread20231007_2 implements Runnable{
 
 	public void run() {
 		
+		System.out.println(thread.getName() + " starting.");
 		
+		try {
+			
+			for (int count = 0; count < 10; count++) {
+				Thread.sleep(400);
+				System.out.println("In " + thread.getName() + ", count is " + count);
+			}
+			
+		} catch (InterruptedException e) {
+			// TODO: handle exception
+		}
 	}
 	
 }
