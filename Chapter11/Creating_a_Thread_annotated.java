@@ -2,35 +2,37 @@
 // You can implement the Runnable interface or you can extend the Thread class.
 class MyThread202310 implements Runnable{
 	
-	String thread_nameString;
+	String thread_name;
 	
-	public MyThread202310(String thread_nameString) {
+	public MyThread202310(String thread_name) {
 		
-		this.thread_nameString = thread_nameString;
+		this.thread_name = thread_name;
 		
 	}
 
 	// Inside run(), you can write some code that constitutes a thread. main() is a thread, too.
 	public void run() {
 		
-		System.out.println(thread_nameString + " starting.");
+		System.out.println(thread_name + " starting.");
 		
+		
+		// Because Thread.sleep() can throw an InterruptedException, it must be wrapped in a try block.
 		try {
 			// a loop is established that counts from 0 to 9.
 			for (int count = 0; count < 10; count++) {
 				
-				Thread.sleep(400);
-				System.out.println("In " + thread_nameString + ", count is " + count);
+				Thread.sleep(400); // causes the thread to suspend for 400 milliseconds.
+				System.out.println("In " + thread_name + ", count is " + count);
 			}
 			
 		} catch (InterruptedException e) {
 			
-			System.out.println(thread_nameString + " interrupted.");
+			System.out.println(thread_name + " interrupted.");
 			
 		}
 		
 		// Thread will end when run() ends.
-		System.out.println(thread_nameString + " terminating.");
+		System.out.println(thread_name + " terminating.");
 	}
 	
 }
