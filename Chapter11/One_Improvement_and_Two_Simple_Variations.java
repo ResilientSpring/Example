@@ -10,6 +10,14 @@ class MyThread20231007 implements Runnable{
 	public MyThread20231007(String name) {
 		thread = new Thread(this, name);
 	}
+	
+	static MyThread20231007 createAndStart(String name) {
+		
+		MyThread20231007 myThread20231007 = new MyThread20231007(name);
+		
+		return myThread20231007;
+		
+	}
 
 	public void run() {
 		// TODO Auto-generated method stub
