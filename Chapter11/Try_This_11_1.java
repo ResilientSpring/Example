@@ -7,6 +7,10 @@
 
 class ExtendThread extends Thread{
 	
+	public ExtendThread(String name) {
+		super(name);
+	}
+	
 }
 
 public class Try_This_11_1 {
