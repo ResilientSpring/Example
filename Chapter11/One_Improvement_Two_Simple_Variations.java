@@ -45,7 +45,7 @@ public class One_Improvement_Two_Simple_Variations {
 		
 		System.out.println("Main thread starting.");
 		
-		// Create and start a thread.
+		// Create and start a thread.   (Create and start a thread in one step.)
 		MyThread20231007_2 myThread20231007_2 = MyThread20231007_2.createAndStart("Child #1");
 		// Now, the thread starts when it is created.
 		

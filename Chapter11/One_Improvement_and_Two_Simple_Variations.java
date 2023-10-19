@@ -45,7 +45,7 @@ public class One_Improvement_and_Two_Simple_Variations {
 		// TODO Auto-generated method stub
 		System.out.println("Main thread starting.");
 		
-		// Create and start a new thread.
+		// Create and start a new thread.   (Create and start a thread in one step.)
 		MyThread20231007 myThread20231007 = MyThread20231007.createAndStart("Child #1");
 		// Now, the thread starts when it is created.
 		
