@@ -15,13 +15,27 @@ class MyThread20231007 implements Runnable{
 		
 		MyThread20231007 myThread20231007 = new MyThread20231007(name);
 		
+		myThread20231007.thread.start();
+		
 		return myThread20231007;
 		
 	}
 
 	public void run() {
 		// TODO Auto-generated method stub
+		System.out.println(thread.getName() + " starting.");
 		
+		try {
+			
+			for (int count = 0; count < 10; count++) {
+				Thread.sleep(400);
+				System.out.println("In " + thread.getName() + ", count is " + count);
+			}
+			
+		} catch (InterruptedException e) {
+			System.out.println(thread.getName() + " interrupted.");
+		}
+		System.out.println(thread.getName() + " terminating.");
 	}
 	
 }
@@ -31,7 +45,24 @@ public class One_Improvement_and_Two_Simple_Variations {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		System.out.println("Main thread starting.");
+		
+		// Create and start a new thread.   (Create and start a thread in one step.)
+		MyThread20231007 myThread20231007 = MyThread20231007.createAndStart("Child #1");
+		// Now, the thread starts when it is created.
+		
+		for (int i = 0; i < 50; i++) {
+			System.out.print(".");
+			
+			try {
+				Thread.sleep(100);				
+			} catch (InterruptedException e) {
+				// TODO: handle exception
+				System.out.println("Main thread interrupted.");
+			}			
+		}
+		
+		System.out.println("Main thread ending.");
 	}
 
 }
