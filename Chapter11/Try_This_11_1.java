@@ -22,9 +22,12 @@ class ExtendThread extends Thread{
 			}
 		} catch (InterruptedException e) {
 			// TODO: handle exception
+			System.out.println(getName() + " interrupted.");
 		}
 		
 		super.run();
+		
+		System.out.println(getName() + " terminating.");
 	}
 	
 }
