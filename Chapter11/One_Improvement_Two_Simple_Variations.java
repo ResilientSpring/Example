@@ -12,9 +12,11 @@ class MyThread20231007_2 implements Runnable{
 	}
 	
 	static MyThread20231007_2 createAndStart(String name) {
+		
 		MyThread20231007_2 myThread20231007_2 = new MyThread20231007_2(name);
 		
 		myThread20231007_2.thread.start();  // Start the thread. (Begin executing the thread.)
+		
 		return myThread20231007_2;
 	}
 
