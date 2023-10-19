@@ -58,9 +58,9 @@ public class One_Improvement_Two_Simple_Variations {
 				// TODO: handle exception
 				System.out.println("Main thread interrupted.");
 			}
-			
 		}
-
+		
+		System.out.println("Main thread ending.");
 	}
 
 }
