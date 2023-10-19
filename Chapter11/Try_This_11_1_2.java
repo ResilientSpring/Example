@@ -44,7 +44,6 @@ public class Try_This_11_1_2 {
 		// Create and start a thread in one step.
 		ExtendThread2 myExtendThread = ExtendThread2.createAndStart("Child #1");
 		
-		myExtendThread.start();
 		
 		for (int i = 0; i < 50; i++) {
 			System.out.print(".");
