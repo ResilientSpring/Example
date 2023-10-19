@@ -41,7 +41,8 @@ public class Try_This_11_1_2 {
 		// TODO Auto-generated method stub
 		System.out.println("Main thread starting.");
 		
-		ExtendThread2 myExtendThread = new ExtendThread2("Child #1");
+		// Create and start a thread in one step.
+		ExtendThread2 myExtendThread = ExtendThread2.createAndStart("Child #1");
 		
 		myExtendThread.start();
 		
