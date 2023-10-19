@@ -41,6 +41,25 @@ public class One_Improvement_Two_Simple_Variations {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		System.out.println("Main thread starting.");
+		
+		// Create and start a thread.
+		MyThread20231007_2 myThread20231007_2 = MyThread20231007_2.createAndStart("Child #1");
+		// Now, the thread starts when it is created.
+		
+		for (int i = 0; i < 50; i++) {
+			
+			System.out.print(".");
+			
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				// TODO: handle exception
+				System.out.println("Main thread interrupted.");
+			}
+			
+		}
 
 	}
 
