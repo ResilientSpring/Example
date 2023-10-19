@@ -37,6 +37,24 @@ public class Try_This_11_1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		System.out.println("Main thread starting.");
+		
+		ExtendThread myExtendThread = new ExtendThread("Child #1");
+		
+		myExtendThread.start();
+		
+		for (int i = 0; i < 50; i++) {
+			System.out.print(".");
+			
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				// TODO: handle exception
+				System.out.println("Main thread interrupted.");
+			}
+		}
+		
+		System.out.println("Main thread ending.");
 	}
 
 }
