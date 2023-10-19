@@ -15,6 +15,8 @@ class MyThread20231007 implements Runnable{
 		
 		MyThread20231007 myThread20231007 = new MyThread20231007(name);
 		
+		myThread20231007.thread.start();
+		
 		return myThread20231007;
 		
 	}
