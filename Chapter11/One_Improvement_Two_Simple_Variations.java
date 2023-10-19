@@ -32,6 +32,7 @@ class MyThread20231007_2 implements Runnable{
 		} catch (InterruptedException e) {
 			System.out.println(thread.getName() + " interrupted.");
 		}
+		System.out.println(thread.getName() + " terminating.");
 	}
 	
 }
