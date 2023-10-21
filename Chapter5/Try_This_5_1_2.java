@@ -14,7 +14,7 @@ public class Try_This_5_1_2 {
 		
 		// This is the bubble sort.
 		for (int i = 0; i < nums.length; i++) {
-			for (int j = nums.length - 1; j >=i ; j--) {
+			for (int j = nums.length - 1; j >= i ; j--) {
 				
 				if (nums[j-1] > nums[j]) {									
 					int k = nums[j-1];
