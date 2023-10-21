@@ -23,6 +23,12 @@ public class Try_This_5_1_2 {
 				}
 			}
 		}
+		
+		System.out.print("Sorted array is: ");
+		
+		for (int i = 0; i < nums.length; i++) {
+			System.out.print(" " + nums[i]);
+		}
 
 	}
 
