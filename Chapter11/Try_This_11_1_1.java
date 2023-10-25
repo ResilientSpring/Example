@@ -8,7 +8,6 @@ class ExtendThread1 extends Thread{
 	// It must also call start() to begin execution of the new thread.
 	public void run() {
 		
-		super.run();
 	}
 	
 }

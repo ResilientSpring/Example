@@ -28,8 +28,6 @@ class ExtendThread2 extends Thread{
 			System.out.println(getName() + " interrupted.");
 		}
 		
-		super.run();
-		
 		System.out.println(getName() + " terminating.");
 	}
 	
