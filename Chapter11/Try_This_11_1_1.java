@@ -4,7 +4,12 @@ class ExtendThread1 extends Thread{
 		// TODO Auto-generated constructor stub
 	}
 	
-	
+	// When a class extends Thread, it must override the run() method, which is the entry point for the new thread,
+	// It must also call start() to begin execution of the new thread.
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+	}
 	
 }
 
