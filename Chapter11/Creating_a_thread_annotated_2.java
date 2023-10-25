@@ -11,7 +11,6 @@ public class Creating_a_thread_annotated_2 {
 		// that is runnable.
 		Thread thread = new Thread();
 		
-		thread.
 	}
 
 }
