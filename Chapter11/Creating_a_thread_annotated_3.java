@@ -1,3 +1,5 @@
+// Java defines two ways to create a runnable object:
+// a class can either implement Runnable interface or extend Thread class.
 class aptly implements Runnable {
 	
 	String thread_name;
@@ -7,8 +9,10 @@ class aptly implements Runnable {
 		this.thread_name = thread_name;
 	}
 
+	// Inside run(), you can write some code that constitutes a thread. main() is a thread, too.
 	public void run() {
 		
+		System.out.println(thread_name + " starting.");
 		
 	}
 	
