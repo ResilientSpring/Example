@@ -52,6 +52,8 @@ public class Creating_a_Thread {
 		Thread thread = new Thread(myThread2023, "Child thread");
 		
 		thread.start();		
+		
+		System.out.println("Main thread ending.");
 
 	}
 
