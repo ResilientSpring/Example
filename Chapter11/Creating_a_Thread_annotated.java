@@ -4,7 +4,7 @@ class MyThread202310 implements Runnable{
 	
 	String thread_name;
 	
-	public MyThread202310(String thread_name) {
+	MyThread202310(String thread_name) {
 		
 		this.thread_name = thread_name;
 		
