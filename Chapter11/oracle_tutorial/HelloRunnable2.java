@@ -4,6 +4,8 @@ public class HelloRunnable2 implements Runnable {
 
 	public static void main(String[] args) {
 		
+		new Thread(new HelloRunnable()).start();
+		
 
 	}
 
