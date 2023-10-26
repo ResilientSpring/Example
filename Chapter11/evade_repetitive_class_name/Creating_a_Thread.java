@@ -5,17 +5,35 @@ package evade_repetitive_class_name;
 // a class can either implement Runnable interface or extend Thread class.
 class MyThread2023 extends Thread{
 	
-	String thread_name;
+	int n;
 	
-	MyThread2023(String thread_name) {
+	MyThread2023(int thread_number) {
 		
-		this.thread_name = thread_name;
+		n = thread_number;
 		
 	}
 	
-	
+	// Entry point of the thread.
 	public void run() {
 		
+		System.out.println(getName() + " starting.");
+		
+		// Because Thread.sleep() can throw up an InterruptedException, it must be wrapped in try/catch block.
+		try {
+		
+			for (int count = 0; count < 10; count++) {
+				
+				Thread.sleep(400);
+				
+				System.out.println("In " + getName() + ", count is " + count);
+			}
+			
+		} catch (InterruptedException exc) {
+			
+			System.out.println(getName() + " interrupted.");
+		}
+		
+		System.out.println(getName() + " terminating.");
 	}
 	
 }
