@@ -1,5 +1,9 @@
 class Aptbess2 implements Runnable{
 	
+	public Aptbess2() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	
 
 	public void run() {
