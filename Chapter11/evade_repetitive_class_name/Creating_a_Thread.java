@@ -16,7 +16,7 @@ class MyThread2023 extends Thread{
 	// Entry point of the thread.
 	public void run() {
 		
-		System.out.println(getName() + " starting.");
+		System.out.println(getName() + " #" + n + " starting.");
 		
 		// Because Thread.sleep() can throw up an InterruptedException, it must be wrapped in try/catch block.
 		try {
@@ -30,7 +30,7 @@ class MyThread2023 extends Thread{
 			
 		} catch (InterruptedException e) {
 			
-			System.out.println(getName() + " interrupted.");
+			System.out.println(getName() + " #" + n + " interrupted.");
 		}
 		
 		System.out.println(getName() + " terminating.");
