@@ -12,7 +12,7 @@ class Aptness implements Runnable{
 		for (int count = 0; count < 10; count++) {
 			
 			
-			// Because sleep() can throw up an exception, it must be enclosed in try/catch block.
+			// Because sleep() can throw up an InterruptedException, it must be wrapped in try/catch block.
 			try {
 				
 				Thread.sleep(400);
