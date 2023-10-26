@@ -2,13 +2,13 @@ class aptly implements Runnable {
 	
 	String thread_name;
 	
-	public aptly(String thread_name) {
+	aptly(String thread_name) {
 		
 		this.thread_name = thread_name;
 	}
 
 	public void run() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 	
