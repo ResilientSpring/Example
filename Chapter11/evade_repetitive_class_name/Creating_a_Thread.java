@@ -14,7 +14,7 @@ class MyThread2023 extends Thread{
 	}
 	
 	
-	void run() {
+	public void run() {
 		
 	}
 	
