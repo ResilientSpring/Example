@@ -14,6 +14,22 @@ class aptly implements Runnable {
 		
 		System.out.println(thread_name + " starting.");
 		
+		for (int count = 0; count < 10; count++) {
+			
+			// Because Thread.sleep() can throw an InterruptedException, it must be wrapped in a try block.
+			try {
+				
+				Thread.sleep(400);
+				
+				System.out.println("In " + thread_name + ", count is " + count);
+				
+			} catch (InterruptedException e) {
+				
+				System.out.println(thread_name + " interrupted.");
+			}
+			
+		}
+		
 	}
 	
 }
