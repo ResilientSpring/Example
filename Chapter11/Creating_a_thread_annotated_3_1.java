@@ -38,7 +38,7 @@ class Aptly1 implements Runnable {
 	
 }
 
-public class Creating_a_method_3_1 {
+public class Creating_a_thread_annotated_3_1 {
 
 	// From the main thread, you can create other threads.
 	public static void main(String[] args) {
