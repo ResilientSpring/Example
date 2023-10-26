@@ -50,6 +50,8 @@ public class Creating_a_thread_annotated_3 {
 		// You create a thread by instantiating an object of type Thread whose constructor encapsulates an object
 	    // that is runnable.
 		Thread thread = new Thread(apt);
+		
+		thread.run();
 
 	}
 
