@@ -52,6 +52,9 @@ public class Creating_a_thread_annotated_3 {
 		Thread thread = new Thread(apt);
 		
 		thread.run();
+		
+		
+		System.out.println("Main thread ending.");
 
 	}
 
