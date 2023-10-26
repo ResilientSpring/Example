@@ -1,10 +1,10 @@
 // Java defines two ways to create a runnable object:
 // a class can either implement Runnable interface or extend Thread class.
-class aptly implements Runnable {
+class Aptly implements Runnable {
 	
 	String thread_name;
 	
-	aptly(String thread_name) {
+	Aptly(String thread_name) {
 		
 		this.thread_name = thread_name;
 	}
@@ -30,6 +30,8 @@ class aptly implements Runnable {
 			
 		}
 		
+		// Thread will end when run() ends.
+		System.out.println(thread_name + " terminating.");
 	}
 	
 }
@@ -40,9 +42,14 @@ public class Creating_a_thread_annotated_3 {
 	// From the main thread, you can create other threads.
 	public static void main(String[] args) {
 		
+		System.out.println("Main thread starting.");
+		
+		// Aptly's objects are runnable because they implement Runnable interface. 
+		Aptly apt = new Aptly("Child thread");
+		
 		// You create a thread by instantiating an object of type Thread whose constructor encapsulates an object
 	    // that is runnable.
-		
+		Thread thread = new Thread(apt);
 
 	}
 
