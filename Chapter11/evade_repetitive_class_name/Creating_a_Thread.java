@@ -47,7 +47,7 @@ public class Creating_a_Thread {
 		MyThread2023 myThread2023 = new MyThread2023(1);
 		
 		// Creating a thread by instantiating Thread class. Its constructor encapsulates a runnable object.
-		Thread thread = new Thread(null, null);
+		Thread thread = new Thread(myThread2023, "Child thread");
 		
 
 	}
