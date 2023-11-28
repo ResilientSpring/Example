@@ -1,6 +1,6 @@
 package JavaScript;
 
-public class Changing_Array_Valuse {
+public class Changing_Array_Value {
 
 	public static void main(String[] args) {
 
