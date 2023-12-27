@@ -13,15 +13,22 @@ public class Interrupts implements Runnable {
 		
 		int inputs[] = new int[50000];
 		
-		for (int i = 0; i < inputs.length; i++)
+		for (int i = 0; i < inputs.length; i++) {
 			i = inputs[i];
-		
+			
+			heavyCrunch(inputs[i]);
+			
+			if (Thread.interrupted()) {
+				
+				System.out.println("We have been interrupted; no more crunching.");
+			}
+			
+			
+		}
 		
 	}
 	
-	void heavyCrunch(int[] an_array_of_integers) {
-		
-		
+	void heavyCrunch(int element) {
 		
 	}
 
