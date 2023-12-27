@@ -27,6 +27,8 @@ public class Creating_a_thread_by_extending_Thread extends Thread {
 			System.out.println(threadName + " interrupted.");
 		}
 		
+		System.out.println(threadName + " terminating.");
+		
 	}
 	
 	public Creating_a_thread_by_extending_Thread(String threadName) {
