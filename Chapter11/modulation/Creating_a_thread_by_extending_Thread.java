@@ -24,7 +24,7 @@ public class Creating_a_thread_by_extending_Thread extends Thread {
 			}
 			
 		} catch (InterruptedException exc) {
-			// TODO: handle exception
+			System.out.println(threadName + " interrupted.");
 		}
 		
 	}
