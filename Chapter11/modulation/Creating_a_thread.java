@@ -30,10 +30,11 @@ public class Creating_a_thread implements Runnable {
 			
 		} catch (InterruptedException exc) {
 			
-			
+			System.out.println(threadName + " interrupted.");
 			
 		}
 		
+		System.out.println(threadName + " terminating.");
 	}
 	
 	public Creating_a_thread(String threadName) {
