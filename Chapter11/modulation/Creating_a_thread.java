@@ -16,7 +16,21 @@ public class Creating_a_thread implements Runnable {
 
 	public void run() {
 		
-		System.out.println();
+		System.out.println(threadName + " starting.");
+		
+		try {
+			
+			for (int count = 0; count < 10; count++) {
+				
+				Thread.sleep(400);
+				
+				System.out.println("In " + threadName + ", count is " + count);
+				
+			}
+			
+		} catch (InterruptedException exc) {
+			// TODO: handle exception
+		}
 		
 	}
 	
