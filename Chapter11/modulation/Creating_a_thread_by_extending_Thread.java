@@ -6,7 +6,7 @@ public class Creating_a_thread_by_extending_Thread extends Thread {
 	
 	public static void main(String[] args) {
 		
-		
+		System.out.println("Main thread starting.");
 		
 	}
 	
