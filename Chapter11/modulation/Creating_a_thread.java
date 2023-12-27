@@ -29,7 +29,9 @@ public class Creating_a_thread implements Runnable {
 			}
 			
 		} catch (InterruptedException exc) {
-			// TODO: handle exception
+			
+			
+			
 		}
 		
 	}
