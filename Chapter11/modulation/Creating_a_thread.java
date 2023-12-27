@@ -3,7 +3,7 @@ package modulation;
 public class Creating_a_thread implements Runnable {
 
 	
-	public static void main() {
+	public static void main(String[] args) {
 		
 		new Thread(new Creating_a_thread()).start();		
 		
