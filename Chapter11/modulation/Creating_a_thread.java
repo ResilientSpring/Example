@@ -11,6 +11,18 @@ public class Creating_a_thread implements Runnable {
 		
 		new Thread(new Creating_a_thread("Child #1")).start();		
 		
+		for (int i = 0; i < 50; i++) {
+			
+			System.out.print(".");
+			
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException exc) {
+				System.out.println("Main thread interrupted");
+			}
+		}
+		
+		System.out.println("Main thread ending.");
 	}
 
 
