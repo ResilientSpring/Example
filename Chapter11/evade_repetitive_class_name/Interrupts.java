@@ -11,10 +11,16 @@ public class Interrupts implements Runnable {
 	@Override
 	public void run() {
 		
-		int heavyCrunch[] = new int[500];
+		int inputs[] = new int[50000];
 		
-		for (int i = 0; i < heavyCrunch.length; i++)
-			i = heavyCrunch[i];
+		for (int i = 0; i < inputs.length; i++)
+			i = inputs[i];
+		
+		
+	}
+	
+	void heavyCrunch(int[] an_array_of_integers) {
+		
 		
 		
 	}
