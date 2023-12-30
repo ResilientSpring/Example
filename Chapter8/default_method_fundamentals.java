@@ -27,7 +27,14 @@ class MyIFImp implements MyIF{
 public class default_method_fundamentals {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		MyIFImp obj = new MyIFImp();
+		
+		// Can call getUserID(), because it is explicitly implemented by MyIFImp:
+		System.out.println("User ID is " + obj.getUserID());
+		
+		// Can also call getAdminID(), because of default implementation:
+		System.out.println("Administrator ID is " + obj.getAdminID());
 
 	}
 
