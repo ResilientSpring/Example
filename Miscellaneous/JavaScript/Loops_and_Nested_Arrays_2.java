@@ -13,6 +13,8 @@ public class Loops_and_Nested_Arrays_2 {
 				
 				if (j == 0) {
 					System.out.println(students[i][j] + ": ");
+				}else if (j == students[i].length - 1) {
+					System.out.println(students[i][j] + "\n");
 				}
 				
 			}
