@@ -15,6 +15,8 @@ class MyThreads implements Runnable{
 		
 		MyThreads myThreads = new MyThreads(name);
 		
+		myThreads.thread.start();
+		
 		return myThreads;
 		
 	}
