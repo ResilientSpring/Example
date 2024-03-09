@@ -39,16 +39,18 @@ class MyThreads implements Runnable{
 		}
 		System.out.println(thread.getName() + " terminating.");		
 	}
-	
-	
-	
 }
 
 
 public class Creating_multiple_threads {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		System.out.println("Main thread starting.");
+		
+		MyThreads mt1 = MyThreads.createAndStart("Child #1");
+		MyThreads mt2 = MyThreads.createAndStart("Child #2");
+		MyThreads mt3 = MyThreads.createAndStart("Child #3");
 
 	}
 
