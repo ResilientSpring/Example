@@ -35,8 +35,9 @@ class MyThreads implements Runnable{
 			}
 			
 		} catch (InterruptedException e) {
-			// TODO: handle exception
+			System.out.println(thread.getName() + " interrupted.");
 		}
+		System.out.println(thread.getName() + " terminating.");		
 	}
 	
 	
