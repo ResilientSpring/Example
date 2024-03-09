@@ -23,8 +23,20 @@ class MyThreads implements Runnable{
 	
 	
 	public void run() {
-		// TODO Auto-generated method stub
 		
+		System.out.println(thread.getName() + " starting.");
+		
+		try {
+			
+			for (int count = 0; count < 10; count++) {
+				
+				Thread.sleep(400);
+				System.out.println("In " + thread.getName() + ", count is " + count);
+			}
+			
+		} catch (InterruptedException e) {
+			// TODO: handle exception
+		}
 	}
 	
 	
