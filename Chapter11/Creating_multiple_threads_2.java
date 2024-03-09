@@ -1,4 +1,14 @@
-class OurThread {
+class OurThread implements Runnable {
+	
+	public OurThread() {
+		
+	}
+
+	@Override
+	public void run() {
+		
+		
+	}
 	
 	
 }
