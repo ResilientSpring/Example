@@ -8,7 +8,7 @@ class OurThread implements Runnable {
 	
 	public OurThread(String name) {
 		
-		thread = new Thread(name);
+		thread = new Thread(this, name);
 		
 	}
 
