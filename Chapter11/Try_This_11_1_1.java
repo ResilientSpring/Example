@@ -1,21 +1,12 @@
-
-class ExtendThread2 extends Thread{
+class ExtendThread1 extends Thread{
 	
-	public ExtendThread2(String name) {
+	public ExtendThread1(String name) {
 		super(name);
 	}
 	
-	static ExtendThread2 createAndStart(String name) {
-		
-		ExtendThread2 myExtendThread2 = new ExtendThread2(name);
-		
-		myExtendThread2.start();
-		
-		return myExtendThread2;
-	}
-	
+	// When a class extends Thread, it must override the run() method, which is the entry point for the new thread,
+	// It must also call start() to begin execution of the new thread.
 	public void run() {
-		// TODO Auto-generated method stub
 		System.out.println(getName() + " starting.");
 		
 		try {
@@ -33,15 +24,14 @@ class ExtendThread2 extends Thread{
 	
 }
 
-public class Try_This_11_1_2 {
+
+public class Try_This_11_1_1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		System.out.println("Main thread starting.");
 		
-		// Create and start a thread in one step.
-		ExtendThread2 myExtendThread = ExtendThread2.createAndStart("Child #1");
-		
+		new ExtendThread1("Child #1").start();
 		
 		for (int i = 0; i < 50; i++) {
 			System.out.print(".");
@@ -49,11 +39,10 @@ public class Try_This_11_1_2 {
 			try {
 				Thread.sleep(100);
 			} catch (InterruptedException e) {
-				// TODO: handle exception
+				
 				System.out.println("Main thread interrupted.");
 			}
 		}
-		
 		System.out.println("Main thread ending.");
 	}
 
