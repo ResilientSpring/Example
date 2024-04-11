@@ -56,6 +56,8 @@ public class NestedClassDemo3 {
 		int[] x = {2, 4, 6, 8, 10};
 		
 		Outer3 outer3 = new Outer3(x);
+		
+		outer3.analyze();
 
 	}
 
