@@ -1,7 +1,5 @@
 package refresher;
 
-import refresher.Outer.Inner;
-
 class Outer {
 
 	int nums[];
