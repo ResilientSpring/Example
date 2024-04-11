@@ -58,6 +58,8 @@ public class NestedClassDemo3 {
 		Outer3 outer3 = new Outer3(x);
 		
 		outer3.analyze();
+		
+	 //	outer3.analyze().;
 
 	}
 
