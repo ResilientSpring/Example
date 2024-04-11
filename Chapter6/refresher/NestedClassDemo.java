@@ -4,7 +4,7 @@ class Outer {
 
 	int nums[];
 
-	public Outer(int n[]) {
+	Outer(int n[]) {
 		// TODO Auto-generated constructor stub
 		nums = n;
 	}
