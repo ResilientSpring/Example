@@ -1,7 +1,5 @@
 package refresher;
 
-import refresher.Outer.Inner;
-
 class Outer2 {
 
 	int nums[];
@@ -61,7 +59,7 @@ public class NestedClassDemo2 {
 
 		outOb.analyze();
 		
-		// Inner inner = new Inner();
+		refresher.Outer2.Inner inner = new refresher.Outer2.Inner();
 
 	}
 
