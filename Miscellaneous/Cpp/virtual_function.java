@@ -23,6 +23,12 @@ class D2 extends B{
 	}
 }
 
+class D3 extends D1 {  // Derive from D1, not B.
+	void who() {
+		System.out.println("Third derivation");
+	}
+}
+
 public class virtual_function {
 
 	public static void main(String[] args) {
