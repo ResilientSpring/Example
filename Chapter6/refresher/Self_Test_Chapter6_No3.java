@@ -5,6 +5,11 @@ class Stack{
 	private char stck[];   // this array holds the stack.
 	private int tos;    // top of stack
 	
+	// Construct an empty Stack given its size.
+	public Stack(int size) {
+		stck = new char[size];
+	}
+	
 }
 
 public class Self_Test_Chapter6_No3 {
