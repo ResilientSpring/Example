@@ -8,6 +8,7 @@ class Stack{
 	// Construct an empty Stack given its size.
 	public Stack(int size) {
 		stck = new char[size];
+		tos = 0;
 	}
 	
 }
