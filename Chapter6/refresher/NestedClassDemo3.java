@@ -1,10 +1,11 @@
 package refresher;
 
-class Outer {
+
+class Outer3 {
 
 	int nums[];
 
-	Outer(int n[]) {
+	Outer3(int n[]) {
 		// TODO Auto-generated constructor stub
 		nums = n;
 	}
@@ -48,21 +49,17 @@ class Outer {
 	}
 }
 
-
-public class NestedClassDemo {
+public class NestedClassDemo3 {
 
 	public static void main(String[] args) {
 		
-		int x[] = { 3, 2, 1, 5, 6, 9, 7, 8 };
+		int[] x = {2, 4, 6, 8, 10};
 		
-		Outer outOb = new Outer(x);
-
-		outOb.analyze();
+		Outer3 outer3 = new Outer3(x);
 		
-		// No enclosing instance of type Outer is accessible. 
-		// Must qualify the allocation with an enclosing instance of type Outer (e.g. x.new A() 
-		// where x is an instance of Outer).
-//		Inner inner = new Inner();
+		outer3.analyze();
+		
+	 //	outer3.analyze().;
 
 	}
 
