@@ -23,7 +23,6 @@ public class Array_of_objects_3 {
 		objects[0].set_x(11);
 		
 		objects[1].set_x(22);
-		
 		objects[2].set_x(33);
 		
 		
