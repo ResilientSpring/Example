@@ -59,13 +59,50 @@ abstract class Abstract_TwoDShape {
 	// declare an abstract method
 	abstract double area();
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 }
 
+
+class Triangle_extends_abstract_superclass2 extends Abstract_TwoDShape {
+	
+	private String styleString;
+	
+	// A default constructor
+	public Triangle_extends_abstract_superclass2() {
+		// TODO Auto-generated constructor stub
+		super();
+		
+		styleString = "none";
+		
+	}
+	
+	// Constructor for Triangle
+	Triangle_extends_abstract_superclass2(String s, double w, double h){
+		super(w, h, "triangle");
+		
+		styleString = s;
+	}
+	
+	// One argument constructor.
+	Triangle_extends_abstract_superclass2(double x){
+		super(x, "triangle");  // call superclass constructor
+		
+		styleString = "filled";
+	}
+	
+	// Construct an object from an object.
+	Triangle_extends_abstract_superclass2(Triangle_extends_abstract_superclass ob){
+		super(ob);  // pass object to TwoDShape constructor
+		styleString = ob.styleString;
+	}
+	
+	double area() {
+		return getWidth() * getHeight() / 2;
+	}
+	
+	void showStyle() {
+		System.out.println("Triangle is " + styleString);
+	}
+}
 
 
 public class Abstract_Class {
