@@ -124,7 +124,7 @@ class Rectangle_extends_abstract_superclass2 extends Abstract_TwoDShape {
 	}
 	
 	// Construct an object from an object. 
-	Rectangle_extends_abstract_superclass2(Rectangle_extends_abstract_superclass ob){
+	Rectangle_extends_abstract_superclass2(Rectangle_extends_abstract_superclass2 ob){
 		super(ob); // pass object to TwoDShape constructor.
 	}
 	
