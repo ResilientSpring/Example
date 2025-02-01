@@ -90,7 +90,7 @@ class Triangle_extends_abstract_superclass2 extends Abstract_TwoDShape {
 	}
 	
 	// Construct an object from an object.
-	Triangle_extends_abstract_superclass2(Triangle_extends_abstract_superclass ob){
+	Triangle_extends_abstract_superclass2(Triangle_extends_abstract_superclass2 ob){
 		super(ob);  // pass object to TwoDShape constructor
 		styleString = ob.styleString;
 	}
@@ -105,10 +105,60 @@ class Triangle_extends_abstract_superclass2 extends Abstract_TwoDShape {
 }
 
 
+class Rectangle_extends_abstract_superclass2 extends Abstract_TwoDShape {
+	
+	// A default constructor
+	public Rectangle_extends_abstract_superclass2() {
+		// TODO Auto-generated constructor stub
+		super();
+	}
+	
+	// Constructor for Rectangle
+	Rectangle_extends_abstract_superclass2(double w, double h){
+		super(w, h, "rectangle");  // Call superclass constructor
+	}
+	
+	// Construct a square
+	Rectangle_extends_abstract_superclass2(double x) {
+		super(x, "rectangle");  // call superclass constructor
+	}
+	
+	// Construct an object from an object. 
+	Rectangle_extends_abstract_superclass2(Rectangle_extends_abstract_superclass ob){
+		super(ob); // pass object to TwoDShape constructor.
+	}
+	
+	boolean isSquare() {
+		
+		if ( getWidth() == getHeight() )
+			return true;
+		
+		return false;
+	}
+	
+	double area() {
+		return getWidth() * getHeight();
+	}
+
+}
+
 public class Abstract_Class {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Abstract_TwoDShape shapes[] = new Abstract_TwoDShape[4];
+		
+		shapes[0] = new Triangle_extends_abstract_superclass2("outlined", 8.0, 12.0);
+		shapes[1] = new Rectangle_extends_abstract_superclass2(10);
+		shapes[2] = new Rectangle_extends_abstract_superclass2(10, 4);
+		shapes[3] = new Triangle_extends_abstract_superclass2(7.0);
+		
+		for (int i = 0; i < shapes.length; i++) {
+			System.out.println("Object is " + shapes[i].getName());
+			System.out.println("Area is " + shapes[i].area());
+			
+			System.out.println();
+		}
 
 	}
 
