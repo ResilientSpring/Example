@@ -15,16 +15,17 @@ class MyClasses{
 public class Array_of_objects_3 {
 
 	public static void main(String[] args) {
-		
-		
+	
 		MyClasses[] objects = new MyClasses[4];
 		
 		objects[0] = new MyClasses();
 		objects[0].set_x(11);
 		
-		objects[1].set_x(22);
-		objects[2].set_x(33);
-		
+		objects[1] = new MyClasses();
+		objects[1].set_x(99);
+	
+		objects[2].set_x(22);
+		objects[3].set_x(33);
 		
 //		for (int i = 0; i < objects.length; i++) 
 //			objects[i].set_x(i);
