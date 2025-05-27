@@ -20,3 +20,5 @@ public class Uninitialized_array_element_content {
 }
 
 // Adapted from https://github.com/ResilientSpring/The-C-Programming-Language/blob/main/Blend/Uninitialized%20array%20element's%20content%202/bruise%203.c
+
+// Important Note: https://chatgpt.com/c/68349761-6ad8-8008-8673-728152e81f3a
