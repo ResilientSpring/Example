@@ -9,10 +9,10 @@ public class Uninitialized_array_element_content {
 		char more_than_80_characters[] = new char[ALL_INPUT_LINES_LONGER_THAN_EIGHTY];
 		
 		if(more_than_80_characters[0] == 0)
-			System.out.println("more_than_80_characters[0] is 0");
+			System.out.println("Look! more_than_80_characters[0] is 0");
 		else 
 			
-			System.out.println("more_than_80_characters[0] is " + more_than_80_characters[0]);
+			System.out.println("See! more_than_80_characters[0] is " + more_than_80_characters[0]);
 		
 
 	}
