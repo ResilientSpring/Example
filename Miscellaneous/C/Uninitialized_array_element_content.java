@@ -18,3 +18,5 @@ public class Uninitialized_array_element_content {
 	}
 
 }
+
+// Adapted from https://github.com/ResilientSpring/The-C-Programming-Language/blob/main/Blend/Uninitialized%20array%20element's%20content%202/bruise%203.c
