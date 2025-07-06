@@ -1,8 +1,10 @@
 package L4_Civil_Servant_Admission_Exam;
 
+import Cpp.static_variable;
+
 public class Programming_No1_2 {
 
-	long Catalan_Number(int n) {
+	long static Catalan_Number(int n) {
 
 		long sum;
 
@@ -26,6 +28,9 @@ public class Programming_No1_2 {
 
 	public static void main(String[] args) {
 
+		System.out.println(Catalan);
+		
+		
 	}
 
 }
