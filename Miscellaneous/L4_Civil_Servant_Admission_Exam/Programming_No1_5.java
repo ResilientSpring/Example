@@ -22,6 +22,8 @@ public class Programming_No1_5 {
 
 		for (int i = 0; i < n; i++) {
 
+			// Catalan Formula involves Sigma, so you must add all operands.[1] 
+			// Sigma means to "add" all operands, rather than to "multiply" all operands.[1] 
 			sum = sum + Catalan_Number(i) * Catalan_Number(n - 1 - i);
 
 		}
