@@ -17,7 +17,7 @@ public class Programming_No1_2 {
 		
 		for (int i = 0; i < n; i++) {
 			
-			
+			sum = Catalan_Number(i) * Catalan_Number(n-1-i);
 			
 		}
 		
@@ -27,7 +27,7 @@ public class Programming_No1_2 {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 	}
 
