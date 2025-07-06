@@ -32,7 +32,7 @@ public class Programming_No1_4 {
 
 	public static void main(String[] args) {
 		
-		
+		System.out.println(Catalan_Number(4));
 
 	}
 
