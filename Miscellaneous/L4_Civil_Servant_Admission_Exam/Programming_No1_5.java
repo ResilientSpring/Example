@@ -22,7 +22,7 @@ public class Programming_No1_5 {
 
 		for (int i = 0; i < n; i++) {
 
-			sum = Catalan_Number(i) * Catalan_Number(n - 1 - i);
+			sum = sum + Catalan_Number(i) * Catalan_Number(n - 1 - i);
 
 		}
 
