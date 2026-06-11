@@ -6,6 +6,8 @@ public class UseSuper2 {
 		B suB = new B(1, 2);
 		
 		System.out.println(suB.i);
+		
+		System.out.println(suB.super.i);
 
 	}
 
