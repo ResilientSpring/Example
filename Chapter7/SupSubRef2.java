@@ -24,17 +24,17 @@ public class SupSubRef2 {
 
 	public static void main(String[] args) {
 		
-		X3 x = new X3(10);
-		Y3 y = new Y3(5, 6);
+		X3 x3 = new X3(10);
+		Y3 y3 = new Y3(5, 6);
 		
-		System.out.println("X.a: " + x.a);
+		System.out.println("X.a: " + x3.a);
 		
-		x = y; 
-		System.out.println("X.a: " + x.a);
+		x3 = y3; 
+		System.out.println("X.a: " + x3.a);
 		
 		// X references know only about X members
-		x.a = 19;  // OK
-// 		x.b = 27;  // Error, X does not have a b member. 
+		x3.a = 19;  // OK
+// 		x3.b = 27;  // Error, X does not have a b member. 
 
 	}
 
