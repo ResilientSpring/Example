@@ -34,7 +34,7 @@ public class SupSubRef2 {
 		
 		// X references know only about X members
 		x.a = 19;  // OK
-// 		x2.b = 27;  // Error, X does not have a b member. 
+// 		x.b = 27;  // Error, X does not have a b member. 
 
 	}
 
