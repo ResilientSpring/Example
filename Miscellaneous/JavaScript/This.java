@@ -7,6 +7,13 @@ class Car{
 	String engine;
 	String radio;
 	
+	public Car(String seats, String engine, String radio) {
+		
+		
+		
+		
+	}
+	
 }
 
 
