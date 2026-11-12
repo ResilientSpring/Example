@@ -1,7 +1,5 @@
 package JavaScript;
 
-import Cpp.this_keyword;
-
 class Car{
 	
 	String seats;
