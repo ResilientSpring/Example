@@ -1,5 +1,6 @@
 package JavaScript;
 
+import Cpp.this_keyword;
 
 class Car{
 	
@@ -9,9 +10,9 @@ class Car{
 	
 	public Car(String seats, String engine, String radio) {
 		
-		
-		
-		
+		this.seats = seats;
+		this.engine = engine;
+		this.radio = radio;
 	}
 	
 }
