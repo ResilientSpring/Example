@@ -24,7 +24,7 @@ public class This {
 		
 		Car work_car = new Car("cloth", "V-6", "Tape Deck");
 		
-
+		String engine_type = work_car.engine;
 	}
 
 }
