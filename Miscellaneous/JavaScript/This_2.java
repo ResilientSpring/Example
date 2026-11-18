@@ -22,7 +22,7 @@ public class This_2 {
 
 	public static void main(String[] args) {
 		
-		
+		Car2 objectCar2 = new Car2("cloth", "V-6", "CD-Player"); 
 
 	}
 
