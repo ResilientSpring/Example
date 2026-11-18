@@ -8,7 +8,6 @@ class Car3{
 	
 	public Car3(String seats, String engine, String radio) {
 		
-		
 		position = seats;
 		enable = engine;
 		wireless = radio;
@@ -21,7 +20,11 @@ class Car3{
 public class This_3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Car3 car3 = new Car3("onyx", "V-8", "CD-Pro2");
+		
+		System.out.println(car3.position);
+		
 
 	}
 
