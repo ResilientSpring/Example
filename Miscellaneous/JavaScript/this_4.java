@@ -6,7 +6,7 @@ class Car_4{
 	char engine;
 	char radio;
 	
-	public Car(char seats, char engine, char radio) {
+	public Car_4(char seats, char engine, char radio) {
 		
 		/*
 		 * char seats; 
