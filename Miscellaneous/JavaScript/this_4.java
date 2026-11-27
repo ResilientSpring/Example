@@ -22,12 +22,17 @@ class Car_4{
 		
 	}
 	
-	
+	void describe() {
+		System.out.println("This amazing car has these features: ");
+		System.out.println(seats + " seats, " + engine + " engine, ");
+		System.out.println(radio);
+	}
 }
 
 public class this_4 {
 
 	public static void main(String[] args) {
+		
 		
 
 	}
