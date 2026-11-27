@@ -2,11 +2,11 @@ package JavaScript;
 
 class Car_4{
 	
-	char seats;
-	char engine;
-	char radio;
+	String seats;
+	String engine;
+	String radio;
 	
-	public Car_4(char seats, char engine, char radio) {
+	public Car_4(String seats, String engine, String radio) {
 		
 		/*
 		 * char seats; 
@@ -33,7 +33,7 @@ public class this_4 {
 
 	public static void main(String[] args) {
 		
-		
+		Car_4 work_car = new Car_4("cloth", "V-6", "Tape Deck");
 
 	}
 
